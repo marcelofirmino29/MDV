@@ -1,0 +1,472 @@
+2024-05-12 17:30:06,839 INFO  - OpenSim.Application [OPENSIM MAIN]: configured log4net using default OpenSim.exe.config
+2024-05-12 17:30:06,849 INFO  - OpenSim.Application [OPENSIM MAIN]: System Locale is en-US
+2024-05-12 17:30:06,860 INFO  - OpenSim.Framework.Util [UTIL] TimeStamp clock with period of 0.0001ms
+2024-05-12 17:30:06,860 INFO  - OpenSim.Application [OPENSIM MAIN]: Runtime gave us 8 min worker threads and 8 min IOCP threads
+2024-05-12 17:30:06,860 INFO  - OpenSim.Application [OPENSIM MAIN]: Runtime gave us 1023 max worker threads and 1000 max IOCP threads
+2024-05-12 17:30:06,860 INFO  - OpenSim.Application [OPENSIM MAIN]: Limiting max worker threads to 1000
+2024-05-12 17:30:06,860 INFO  - OpenSim.Application [OPENSIM MAIN]: Threadpool set to 1000 max worker threads and 1000 max IOCP threads
+2024-05-12 17:30:06,860 INFO  - OpenSim.Application [OPENSIM MAIN]: Environment is supported by OpenSimulator.
+2024-05-12 17:30:06,880 INFO  - OpenSim.Application Default culture changed to Inglês (Estados Unidos)
+2024-05-12 17:30:06,900 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration settings
+2024-05-12 17:30:06,900 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration file C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\OpenSimDefaults.ini
+2024-05-12 17:30:06,905 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration file C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\OpenSim.ini
+2024-05-12 17:30:06,911 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration file C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\config-include\osslDefaultEnable.ini
+2024-05-12 17:30:06,911 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration file C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\config-include\Standalone.ini
+2024-05-12 17:30:06,911 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration file C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\config-include\osslEnable.ini
+2024-05-12 17:30:06,919 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration file C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\config-include\StandaloneCommon.ini
+2024-05-12 17:30:06,919 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration file C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\config-include\FlotsamCache.ini
+2024-05-12 17:30:06,919 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Reading configuration file C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\config-include\storage\SQLiteStandalone.ini
+2024-05-12 17:30:06,927 INFO  - OpenSim.ConfigurationLoader [CONFIG]: Loading environment variables for Config
+2024-05-12 17:30:06,949 INFO  - OpenSim.OpenSim [OPENSIM MAIN]: Using async_call_method SmartThreadPool
+2024-05-12 17:30:06,949 INFO  - OpenSim.OpenSim [OPENSIM MAIN] Running GC in workstation mode
+2024-05-12 17:30:06,949 INFO  - OpenSim.Framework.Servers.BaseOpenSimServer [STARTUP]: Beginning startup processing
+2024-05-12 17:30:06,949 INFO  - OpenSim.Framework.Servers.BaseOpenSimServer [STARTUP]: version: OpenSim 0.9.2.2 Yeti Release
+
+2024-05-12 17:30:06,949 INFO  - OpenSim.Framework.Servers.BaseOpenSimServer [STARTUP]: Operating system version: Microsoft Windows NT 6.2.9200.0, .NET platform Win32NT, 32-bit
+
+2024-05-12 17:30:06,949 INFO  - OpenSim.Framework.Servers.BaseOpenSimServer [STARTUP]: Processor Architecture: AMD64(le)
+2024-05-12 17:30:06,969 INFO  - OpenSim.OpenSim ====================================================================
+2024-05-12 17:30:06,969 INFO  - OpenSim.OpenSim ========================= STARTING OPENSIM =========================
+2024-05-12 17:30:06,969 INFO  - OpenSim.OpenSim ====================================================================
+2024-05-12 17:30:06,969 INFO  - OpenSim.Framework.Console.LocalConsole [LOCAL CONSOLE]: Persistent command line history is Enabled, up to 100 lines from file C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\OpenSimConsoleHistory.txt without timestamps
+2024-05-12 17:30:06,969 INFO  - OpenSim.Framework.Console.LocalConsole [LOCAL CONSOLE]: Creating new empty command line history file C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\OpenSimConsoleHistory.txt
+2024-05-12 17:30:06,976 INFO  - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: Logging started to file C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\OpenSim.log
+2024-05-12 17:30:06,980 INFO  - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: Stats Logging started to file C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\OpenSimStats.log
+2024-05-12 17:30:06,980 INFO  - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: Starting in C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin
+2024-05-12 17:30:06,980 INFO  - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: OpenSimulator version: OpenSim 0.9.2.2 Yeti Release
+2024-05-12 17:30:06,980 INFO  - OpenSim.Framework.Servers.ServerBase [SERVER BASE]: Operating system version: Microsoft Windows NT 6.2.9200.0, .NET platform Win32NT, 32-bit
+2024-05-12 17:30:07,029 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:07,029 INFO  - OpenSim.Data.SQLite.SQLiteSimulationData [SQLITE REGION DB]: Sqlite - connecting: URI=file:OpenSim.db,version=3,UseUTF16Encoding=True
+2024-05-12 17:30:07,090 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating migrations at version 1
+2024-05-12 17:30:07,100 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Upgrading RegionStore to latest revision 40.
+2024-05-12 17:30:07,100 INFO  - OpenSim.Data.Migration [MIGRATIONS]: NOTE - this may take a while, don't interrupt this process!
+2024-05-12 17:30:07,103 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating RegionStore at version 31
+2024-05-12 17:30:07,109 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating RegionStore to version 32
+2024-05-12 17:30:07,121 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating RegionStore to version 33
+2024-05-12 17:30:07,151 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating RegionStore to version 34
+2024-05-12 17:30:07,160 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating RegionStore to version 35
+2024-05-12 17:30:07,170 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating RegionStore to version 36
+2024-05-12 17:30:07,170 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating RegionStore to version 37
+2024-05-12 17:30:07,179 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating RegionStore to version 38
+2024-05-12 17:30:07,199 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating RegionStore to version 39
+2024-05-12 17:30:07,220 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating RegionStore to version 40
+2024-05-12 17:30:07,299 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:07,299 INFO  - OpenSim.Data.SQLite.SQLiteEstateStore [ESTATE DB]: Sqlite - connecting: URI=file:OpenSim.db,version=3,UseUTF16Encoding=True
+2024-05-12 17:30:07,299 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Upgrading EstateStore to latest revision 12.
+2024-05-12 17:30:07,309 INFO  - OpenSim.Data.Migration [MIGRATIONS]: NOTE - this may take a while, don't interrupt this process!
+2024-05-12 17:30:07,327 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating EstateStore at version 10
+2024-05-12 17:30:07,349 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating EstateStore to version 11
+2024-05-12 17:30:07,349 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating EstateStore to version 12
+2024-05-12 17:30:07,369 INFO  - OpenSim.Framework.Servers.HttpServer.BaseHttpServer [BASE HTTP SERVER]: Starting HTTP server on port 9000
+2024-05-12 17:30:07,375 DEBUG - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread PollServiceWatcherThread, ID 9
+2024-05-12 17:30:07,391 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Initializing addin manager
+2024-05-12 17:30:08,149 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim
+2024-05-12 17:30:08,153 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.Framework
+2024-05-12 17:30:08,154 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: Robust
+2024-05-12 17:30:08,159 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Data
+2024-05-12 17:30:08,185 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Loading extension point /OpenSim/Startup
+2024-05-12 17:30:08,199 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Trying plugin /OpenSim/Startup/LoadRegions
+2024-05-12 17:30:08,201 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.RegionModulesController
+2024-05-12 17:30:08,201 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Trying plugin /OpenSim/Startup/LoadRegions
+2024-05-12 17:30:08,201 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.RemoteController
+2024-05-12 17:30:08,209 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Trying plugin /OpenSim/Startup/LoadRegions
+2024-05-12 17:30:08,209 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.LoadRegions
+2024-05-12 17:30:08,209 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.ODE
+2024-05-12 17:30:08,219 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Groups
+2024-05-12 17:30:08,230 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: LindenUDP
+2024-05-12 17:30:08,234 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.BulletS
+2024-05-12 17:30:08,249 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.ScriptEngine.XEngine
+2024-05-12 17:30:08,249 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.CoreModules
+2024-05-12 17:30:08,269 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.BasicPhysics
+2024-05-12 17:30:08,269 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: LindenCaps
+2024-05-12 17:30:08,281 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: YEngine
+2024-05-12 17:30:08,290 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.Meshing
+2024-05-12 17:30:08,300 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.OptionalModules
+2024-05-12 17:30:08,313 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.OfflineIM
+2024-05-12 17:30:08,313 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.ubOde
+2024-05-12 17:30:08,313 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.ubOdeMeshing
+2024-05-12 17:30:08,319 INFO  - OpenSim.Framework.PluginLoader`1 [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.POS
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.ODE, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin OpenSim.Groups, (version 0.9.2.2), loaded 5 modules, 5 shared, 0 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin LindenUDP, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.BulletS, (version 0.9.2.2), loaded 2 modules, 0 shared, 2 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin OpenSim.Region.ScriptEngine.XEngine, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin OpenSim.Region.CoreModules, (version 0.9.2.2), loaded 115 modules, 74 shared, 41 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.BasicPhysics, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin LindenCaps, (version 0.9.2.2), loaded 17 modules, 5 shared, 12 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin YEngine, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.Meshing, (version 0.9.2.2), loaded 2 modules, 0 shared, 2 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin OpenSim.Region.OptionalModules, (version 0.9.2.2), loaded 39 modules, 20 shared, 19 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin OpenSim.OfflineIM, (version 0.9.2.2), loaded 1 modules, 1 shared, 0 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.ubOde, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.ubOdeMeshing, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-12 17:30:08,319 INFO  - OpenSim.ApplicationPlugins.RegionModulesController.RegionModulesControllerPlugin [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.POS, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-12 17:30:08,329 INFO  - OpenSim.Region.CoreModules.World.Serialiser.SerialiserModule [Serialiser] Enabled, using save dir "exports"
+2024-05-12 17:30:08,329 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,340 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating migrations at version 1
+2024-05-12 17:30:08,340 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Upgrading UserAccount to latest revision 3.
+2024-05-12 17:30:08,340 INFO  - OpenSim.Data.Migration [MIGRATIONS]: NOTE - this may take a while, don't interrupt this process!
+2024-05-12 17:30:08,344 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating UserAccount at version 1
+2024-05-12 17:30:08,349 DEBUG - OpenSim.Data.Migration [MIGRATIONS]: Cmd was SQLite error no such table: users in SQL: BEGIN TRANSACTION; INSERT INTO UserAccounts (PrincipalID, ScopeID, FirstName, LastName, Email, ServiceURLs, Created) SELECT `UUID` AS PrincipalID, '00000000-0000-0000-0000-000000000000' AS ScopeID, username AS FirstName, surname AS LastName, '' as Email, '' AS ServiceURLs, created as Created FROM users; COMMIT; 
+2024-05-12 17:30:08,349 DEBUG - OpenSim.Data.Migration [MIGRATIONS]: An error has occurred in the migration.  If you're running OpenSim for the first time then you can probably safely ignore this, since certain migration commands attempt to fetch data out of old tables.  However, if you're using an existing database and you see database related errors while running OpenSim then you will need to fix these problems manually. Continuing.
+2024-05-12 17:30:08,360 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating UserAccount to version 2
+2024-05-12 17:30:08,376 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating UserAccount to version 3
+2024-05-12 17:30:08,379 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2024-05-12 17:30:08,392 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,392 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,399 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating migrations at version 1
+2024-05-12 17:30:08,399 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Upgrading AuthStore to latest revision 2.
+2024-05-12 17:30:08,399 INFO  - OpenSim.Data.Migration [MIGRATIONS]: NOTE - this may take a while, don't interrupt this process!
+2024-05-12 17:30:08,399 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating AuthStore at version 1
+2024-05-12 17:30:08,399 DEBUG - OpenSim.Data.Migration [MIGRATIONS]: Cmd was SQLite error no such table: users in SQL: BEGIN TRANSACTION; INSERT INTO auth (UUID, passwordHash, passwordSalt, webLoginKey) SELECT `UUID` AS UUID, `passwordHash` AS passwordHash, `passwordSalt` AS passwordSalt, `webLoginKey` AS webLoginKey FROM users; COMMIT; 
+2024-05-12 17:30:08,399 DEBUG - OpenSim.Data.Migration [MIGRATIONS]: An error has occurred in the migration.  If you're running OpenSim for the first time then you can probably safely ignore this, since certain migration commands attempt to fetch data out of old tables.  However, if you're using an existing database and you see database related errors while running OpenSim then you will need to fix these problems manually. Continuing.
+2024-05-12 17:30:08,399 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating AuthStore to version 2
+2024-05-12 17:30:08,409 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,434 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating migrations at version 1
+2024-05-12 17:30:08,440 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Upgrading GridUserStore to latest revision 1.
+2024-05-12 17:30:08,440 INFO  - OpenSim.Data.Migration [MIGRATIONS]: NOTE - this may take a while, don't interrupt this process!
+2024-05-12 17:30:08,449 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating GridUserStore at version 1
+2024-05-12 17:30:08,449 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2024-05-12 17:30:08,456 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,456 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,459 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating migrations at version 1
+2024-05-12 17:30:08,459 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Upgrading XInventoryStore to latest revision 2.
+2024-05-12 17:30:08,459 INFO  - OpenSim.Data.Migration [MIGRATIONS]: NOTE - this may take a while, don't interrupt this process!
+2024-05-12 17:30:08,459 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating XInventoryStore at version 1
+2024-05-12 17:30:08,468 DEBUG - OpenSim.Data.Migration [MIGRATIONS]: Cmd was SQLite error no such table: old.inventoryfolders in SQL: BEGIN TRANSACTION; INSERT INTO inventoryfolders (folderName, type, version, folderID, agentID, parentFolderID) SELECT `name` AS folderName, `type` AS type, `version` AS version, `UUID` AS folderID, `agentID` AS agentID, `parentID` AS parentFolderID from old.inventoryfolders; INSERT INTO inventoryitems (assetID, assetType, inventoryName, inventoryDescription, inventoryNextPermissions, inventoryCurrentPermissions, invType, creatorID, inventoryBasePermissions, inventoryEveryOnePermissions, salePrice, saleType, creationDate, groupID, groupOwned, flags, inventoryID, parentFolderID, avatarID, inventoryGroupPermissions) SELECT `assetID`, `assetType` AS assetType, `inventoryName` AS inventoryName, `inventoryDescription` AS inventoryDescription, `inventoryNextPermissions` AS inventoryNextPermissions, `inventoryCurrentPermissions` AS inventoryCurrentPermissions, `invType` AS invType, `creatorsID` AS creatorID, `inventoryBasePermissions` AS inventoryBasePermissions, `inventoryEveryOnePermissions` AS inventoryEveryOnePermissions, `salePrice` AS salePrice, `saleType` AS saleType, `creationDate` AS creationDate, `groupID` AS groupID, `groupOwned` AS groupOwned, `flags` AS flags, `UUID` AS inventoryID, `parentFolderID` AS parentFolderID, `avatarID` AS avatarID, `inventoryGroupPermissions` AS inventoryGroupPermissions FROM old.inventoryitems; COMMIT; 
+2024-05-12 17:30:08,468 DEBUG - OpenSim.Data.Migration [MIGRATIONS]: An error has occurred in the migration.  If you're running OpenSim for the first time then you can probably safely ignore this, since certain migration commands attempt to fetch data out of old tables.  However, if you're using an existing database and you see database related errors while running OpenSim then you will need to fix these problems manually. Continuing.
+2024-05-12 17:30:08,468 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating XInventoryStore to version 2
+2024-05-12 17:30:08,471 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,471 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,489 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating migrations at version 1
+2024-05-12 17:30:08,505 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Upgrading Avatar to latest revision 1.
+2024-05-12 17:30:08,505 INFO  - OpenSim.Data.Migration [MIGRATIONS]: NOTE - this may take a while, don't interrupt this process!
+2024-05-12 17:30:08,509 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating Avatar at version 1
+2024-05-12 17:30:08,509 DEBUG - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2024-05-12 17:30:08,569 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.UserAccounts.LocalUserAccountServicesConnector [LOCAL USER ACCOUNT SERVICE CONNECTOR]: Local user connector enabled
+2024-05-12 17:30:08,569 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Simulation.LocalSimulationConnectorModule [LOCAL SIMULATION CONNECTOR]: Local simulation enabled.
+2024-05-12 17:30:08,579 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Presence.LocalPresenceServicesConnector [LOCAL PRESENCE CONNECTOR]: Service dll = OpenSim.Services.PresenceService.dll:PresenceService
+2024-05-12 17:30:08,583 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: Starting presence service
+2024-05-12 17:30:08,583 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Presence.LocalPresenceServicesConnector [LOCAL PRESENCE CONNECTOR]: Local presence connector enabled
+2024-05-12 17:30:08,583 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Neighbour.NeighbourServicesOutConnector [NEIGHBOUR CONNECTOR]: Neighbour out connector enabled
+2024-05-12 17:30:08,583 DEBUG - OpenSim.Services.MapImageService.MapImageService [MAP IMAGE SERVICE]: Starting MapImage service
+2024-05-12 17:30:08,639 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.MapImage.MapImageServiceModule [MAP IMAGE SERVICE MODULE]: enabled with no refresh and service object OpenSim.Services.MapImageService.dll:MapImageService
+2024-05-12 17:30:08,639 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Land.LocalLandServicesConnector [LAND CONNECTOR]: Local land connector enabled
+2024-05-12 17:30:08,639 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Inventory.LocalInventoryServicesConnector [LOCAL INVENTORY SERVICES CONNECTOR]: Service dll = OpenSim.Services.InventoryService.dll:XInventoryService
+2024-05-12 17:30:08,639 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,639 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,639 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,639 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Inventory.LocalInventoryServicesConnector [LOCAL INVENTORY SERVICES CONNECTOR]: Local inventory connector enabled
+2024-05-12 17:30:08,647 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,647 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2024-05-12 17:30:08,649 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.GridUser.ActivityDetector [ACTIVITY DETECTOR]: starting 
+2024-05-12 17:30:08,649 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.GridUser.LocalGridUserServicesConnector [LOCAL GRID USER SERVICE CONNECTOR]: Local grid user connector enabled
+2024-05-12 17:30:08,649 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2024-05-12 17:30:08,649 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Grid.RegionGridServicesConnector [REGION GRID CONNECTOR]: enabled in Standalone mode
+2024-05-12 17:30:08,649 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,649 DEBUG - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2024-05-12 17:30:08,649 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Avatar.LocalAvatarServicesConnector [AVATAR CONNECTOR]: Local avatar connector enabled
+2024-05-12 17:30:08,649 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,649 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Authentication.LocalAuthenticationServicesConnector [AUTH CONNECTOR]: Local Authentication connector enabled
+2024-05-12 17:30:08,660 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:08,663 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating migrations at version 1
+2024-05-12 17:30:08,669 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Upgrading AssetStore to latest revision 6.
+2024-05-12 17:30:08,669 INFO  - OpenSim.Data.Migration [MIGRATIONS]: NOTE - this may take a while, don't interrupt this process!
+2024-05-12 17:30:08,689 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating AssetStore at version 6
+2024-05-12 17:30:08,699 DEBUG - OpenSim.Services.AssetService.AssetService [ASSET SERVICE]: Loading default asset set from assets/AssetSets.xml
+2024-05-12 17:30:12,759 DEBUG - OpenSim.Services.AssetService.AssetService [ASSET SERVICE]: Local asset service enabled
+2024-05-12 17:30:12,759 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Asset.RegionAssetConnector [REGIONASSETCONNECTOR]: enabled
+2024-05-12 17:30:12,759 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:12,769 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Upgrading AgentPrefs to latest revision 2.
+2024-05-12 17:30:12,769 INFO  - OpenSim.Data.Migration [MIGRATIONS]: NOTE - this may take a while, don't interrupt this process!
+2024-05-12 17:30:12,774 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating AgentPrefs at version 1
+2024-05-12 17:30:12,774 DEBUG - OpenSim.Data.Migration [MIGRATIONS]: Cmd was SQLite error table AgentPrefs already exists in SQL: BEGIN; CREATE TABLE AgentPrefs(     PrincipalID CHAR(36) NOT NULL,     AccessPrefs CHAR(2) NOT NULL DEFAULT 'M',     HoverHeight DOUBLE(30, 27) NOT NULL DEFAULT 0,     Language CHAR(5) NOT NULL DEFAULT 'en-us',     LanguageIsPublic BOOLEAN NOT NULL DEFAULT 1,     PermEveryone INT(6) NOT NULL DEFAULT 0,     PermGroup INT(6) NOT NULL DEFAULT 0,     PermNextOwner INT(6) NOT NULL DEFAULT 532480,     UNIQUE(PrincipalID),     PRIMARY KEY(PrincipalID) ); COMMIT; 
+2024-05-12 17:30:12,774 DEBUG - OpenSim.Data.Migration [MIGRATIONS]: An error has occurred in the migration.  If you're running OpenSim for the first time then you can probably safely ignore this, since certain migration commands attempt to fetch data out of old tables.  However, if you're using an existing database and you see database related errors while running OpenSim then you will need to fix these problems manually. Continuing.
+2024-05-12 17:30:12,774 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating AgentPrefs to version 2
+2024-05-12 17:30:12,779 DEBUG - OpenSim.Services.UserAccountService.AgentPreferencesService [AGENT PREFERENCES SERVICE]: Starting agent preferences service
+2024-05-12 17:30:12,779 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.AgentPreferences.LocalAgentPreferencesServicesConnector [AGENT PREFERENCES CONNECTOR]: Local agent preferences connector enabled
+2024-05-12 17:30:12,779 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Profile.LocalUserProfilesServicesConnector [LOCAL USERPROFILES SERVICE CONNECTOR]: Local user profiles connector enabled
+2024-05-12 17:30:12,779 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsIn.MapImage.MapImageServiceInConnectorModule [MAP SERVICE IN CONNECTOR]: MapImage Service In Connector enabled
+2024-05-12 17:30:12,779 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsIn.Login.LLLoginServiceInConnectorModule [LLLOGIN IN CONNECTOR]: LLLoginerviceInConnector enabled
+2024-05-12 17:30:12,779 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsIn.Grid.GridInfoServiceInConnectorModule [GRIDINFO IN CONNECTOR]: GridInfo Service In Connector enabled
+2024-05-12 17:30:12,789 DEBUG - OpenSim.Region.CoreModules.Scripting.VectorRender.VectorRenderModule [VECTORRENDERMODULE]: using font "Arial" for text rendering.
+2024-05-12 17:30:12,789 DEBUG - OpenSim.Framework.OutboundUrlFilter [OUTBOUND URL FILTER]: OutboundDisallowForUserScripts for Script dynamic texture image module is [0.0.0.0/8|10.0.0.0/8|100.64.0.0/10|127.0.0.0/8|169.254.0.0/16|172.16.0.0/12|192.0.0.0/24|192.0.2.0/24|192.88.99.0/24|192.168.0.0/16|198.18.0.0/15|198.51.100.0/24|203.0.113.0/24|224.0.0.0/4|240.0.0.0/4|255.255.255.255/32]
+2024-05-12 17:30:12,799 DEBUG - OpenSim.Framework.OutboundUrlFilter [OUTBOUND URL FILTER]: OutboundDisallowForUserScriptsExcept for Script dynamic texture image module is []
+2024-05-12 17:30:12,831 DEBUG - OpenSim.Region.CoreModules.Framework.UserManagement.UserManagementModule [USER MANAGEMENT MODULE]: BasicUserManagementModule is enabled
+2024-05-12 17:30:12,839 DEBUG - OpenSim.Region.CoreModules.Framework.Search.BasicSearchModule [BASIC SEARCH MODULE]: BasicSearchModule is enabled
+2024-05-12 17:30:12,839 DEBUG - OpenSim.Region.CoreModules.Framework.Library.LibraryModule [LIBRARY MODULE]: Library service dll is OpenSim.Services.InventoryService.dll:LibraryService
+2024-05-12 17:30:12,839 DEBUG - OpenSim.Services.InventoryService.LibraryService [LIBRARY]: Starting library service...
+2024-05-12 17:30:12,839 INFO  - OpenSim.Services.InventoryService.LibraryService [LIBRARY INVENTORY]: Loading library control file ./inventory/Libraries.xml
+2024-05-12 17:30:12,860 DEBUG - OpenSim.Region.CoreModules.Avatar.Lure.LureModule [LURE MODULE]: LureModule enabled
+2024-05-12 17:30:12,869 DEBUG - OpenSim.Region.CoreModules.Avatar.InstantMessage.HGMessageTransferModule [HG MESSAGE TRANSFER]: Disabled by configuration
+2024-05-12 17:30:12,872 DEBUG - OpenSim.Region.CoreModules.Avatar.InstantMessage.MessageTransferModule [MESSAGE TRANSFER]: Module enabled
+2024-05-12 17:30:12,883 INFO  - OpenSim.Region.CoreModules.Avatar.Groups.GroupsModule [GROUPS]: Groups disabled in configuration
+2024-05-12 17:30:12,889 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:12,889 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating migrations at version 1
+2024-05-12 17:30:12,895 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Upgrading FriendsStore to latest revision 2.
+2024-05-12 17:30:12,895 INFO  - OpenSim.Data.Migration [MIGRATIONS]: NOTE - this may take a while, don't interrupt this process!
+2024-05-12 17:30:12,899 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Creating FriendsStore at version 1
+2024-05-12 17:30:12,900 DEBUG - OpenSim.Data.Migration [MIGRATIONS]: Cmd was SQLite error no such table: userfriends in SQL: BEGIN TRANSACTION; INSERT INTO `Friends` SELECT `ownerID`, `friendID`, `friendPerms`, 0 FROM `userfriends`; COMMIT; 
+2024-05-12 17:30:12,900 DEBUG - OpenSim.Data.Migration [MIGRATIONS]: An error has occurred in the migration.  If you're running OpenSim for the first time then you can probably safely ignore this, since certain migration commands attempt to fetch data out of old tables.  However, if you're using an existing database and you see database related errors while running OpenSim then you will need to fix these problems manually. Continuing.
+2024-05-12 17:30:12,900 INFO  - OpenSim.Data.Migration [MIGRATIONS]: Updating FriendsStore to version 2
+2024-05-12 17:30:12,900 DEBUG - OpenSim.Region.CoreModules.Avatar.Friends.FriendsModule [FRIENDS MODULE]: FriendsModule enabled.
+2024-05-12 17:30:12,909 INFO  - OpenSim.Region.CoreModules.Asset.FlotsamAssetCache [FLOTSAM ASSET CACHE]: FlotsamAssetCache enabled
+2024-05-12 17:30:12,909 INFO  - OpenSim.Region.CoreModules.Asset.FlotsamAssetCache [FLOTSAM ASSET CACHE]: Cache Directory C:\Users\Marcelo F\Downloads\opensim-0.9.2.2\bin\assetcache
+2024-05-12 17:30:12,963 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsIn.Login.LLLoginServiceInConnectorModule [LLLOGIN IN CONNECTOR]: Starting...
+2024-05-12 17:30:12,975 DEBUG - OpenSim.ApplicationPlugins.RemoteController.RemoteAdminPlugin [RADMIN]: Creating default avatar entries
+2024-05-12 17:30:12,975 DEBUG - OpenSim.ApplicationPlugins.RemoteController.RemoteAdminPlugin [RADMIN]: No default avatar information available
+2024-05-12 17:30:12,975 INFO  - OpenSim.ApplicationPlugins.RemoteController.RemoteAdminPlugin [RADMIN]: Default avatars not loaded
+2024-05-12 17:30:12,980 INFO  - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOAD REGIONS PLUGIN]: Loading region configurations from filesystem
+2024-05-12 17:30:29,660 INFO  - OpenSim.Framework.RegionInfo [REGIONINFO]: Resolving SYSTEMIP to 192.168.3.223 for external hostname of region meta
+2024-05-12 17:30:29,668 INFO  - OpenSim.ApplicationPlugins.LoadRegions.RegionLoaderFileSystem [REGION LOADER FILE SYSTEM]: Loading config files from .\Regions
+2024-05-12 17:30:29,668 INFO  - OpenSim.ApplicationPlugins.LoadRegions.RegionLoaderFileSystem [REGION LOADER FILE SYSTEM]: Loading config file .\Regions\Regions.ini
+2024-05-12 17:30:29,675 INFO  - OpenSim.Framework.RegionInfo [REGIONINFO]: Resolving SYSTEMIP to 192.168.3.223 for external hostname of region meta
+2024-05-12 17:30:29,675 INFO  - OpenSim.ApplicationPlugins.LoadRegions.RegionLoaderFileSystem [REGION LOADER FILE SYSTEM]: Loaded config for region meta
+2024-05-12 17:30:29,675 INFO  - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOAD REGIONS PLUGIN]: Loading specific shared modules...
+2024-05-12 17:30:29,680 INFO  - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOAD REGIONS PLUGIN]: Done.
+2024-05-12 17:30:29,680 DEBUG - OpenSim.ApplicationPlugins.LoadRegions.LoadRegionsPlugin [LOAD REGIONS PLUGIN]: Creating Region: meta (ThreadID: 1)
+2024-05-12 17:30:29,690 WARN  - OpenSim.OpenSimBase [ESTATE] Region meta is not part of an estate.
+2024-05-12 17:30:29,699 DEBUG - OpenSim.Framework.RegionInfo [RegionInfo] Could not locate value for parameter TargetEstate
+2024-05-12 17:30:29,699 INFO  - OpenSim.OpenSimBase [ESTATE]: No existing estates found.  You must create a new one.
+2024-05-12 17:30:38,349 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Default script engine YEngine
+2024-05-12 17:30:38,349 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Region meta, WORLD MAP refresh time set to 0 seconds
+2024-05-12 17:30:38,352 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Using the BestAvatarResponsiveness prioritization scheme
+2024-05-12 17:30:38,353 WARN  - OpenSim.Data.SQLite.SQLiteSimulationData [SQLITE REGION DB]: No terrain found for region
+2024-05-12 17:30:38,353 INFO  - OpenSim.Region.Framework.Scenes.Scene [TERRAIN]: No default terrain. Generating a new terrain pinhead-island.
+2024-05-12 17:30:38,368 DEBUG - OpenSim.Framework.TerrainData [TERRAIN DATA] V2DGzip 62212 bytes
+2024-05-12 17:30:38,368 DEBUG - OpenSim.Data.SQLite.SQLiteSimulationData [REGION DB SQLITE] Storing terrain format 23
+2024-05-12 17:30:38,399 DEBUG - OpenSim.Framework.TerrainData [TERRAIN DATA] V2DGzip 62212 bytes
+2024-05-12 17:30:38,400 DEBUG - OpenSim.Data.SQLite.SQLiteSimulationData [REGION DB SQLITE] Storing bakedterrain format 23
+2024-05-12 17:30:38,400 INFO  - OpenSim.OpenSimBase [REGIONMODULES]: Loading Region's modules
+2024-05-12 17:30:38,417 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Presence.BasePresenceServiceConnector [BASE PRESENCE SERVICE CONNECTOR]: Enabled for region meta
+2024-05-12 17:30:38,425 DEBUG - OpenSim.Region.CoreModules.Avatar.InstantMessage.MessageTransferModule [MESSAGE TRANSFER]: Message transfer module active
+2024-05-12 17:30:38,429 INFO  - OpenSim.Region.CoreModules.Avatar.Chat.ChatModule [CHAT]: Initialized for meta w:10 s:20 S:100
+2024-05-12 17:30:38,448 INFO  - OpenSim.Region.PhysicsModule.BulletS.ExtendedPhysics [EXTENDED PHYSICS] module is not enabled
+2024-05-12 17:30:38,464 INFO  - OpenSim.Region.CoreModules.WindModule [WIND] Enabled with an update rate of 150 frames.
+2024-05-12 17:30:38,470 DEBUG - OpenSim.Region.CoreModules.World.Permissions.DefaultPermissionsModule [PERMISSIONS]: allowed_script_creators All
+2024-05-12 17:30:38,475 DEBUG - OpenSim.Region.CoreModules.World.Permissions.DefaultPermissionsModule [PERMISSIONS]: allowed_script_editors All
+2024-05-12 17:30:38,475 DEBUG - OpenSim.Region.CoreModules.World.Permissions.DefaultPermissionsModule [PERMISSIONS]: Enabling all region service permission checks
+2024-05-12 17:30:38,475 INFO  - OpenSim.Region.CoreModules.World.LightShare.EnvironmentModule [EnvironmentModule]: Module is enabled.
+2024-05-12 17:30:38,475 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Authorization.LocalAuthorizationServicesConnector [AUTHORIZATION CONNECTOR]: Initialise
+2024-05-12 17:30:38,475 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Authorization.LocalAuthorizationServicesConnector [AUTHORIZATION CONNECTOR]: Local authorization connector enabled
+2024-05-12 17:30:38,479 DEBUG - OpenSim.Framework.OutboundUrlFilter [OUTBOUND URL FILTER]: OutboundDisallowForUserScripts for Script HTTP request module is [0.0.0.0/8|10.0.0.0/8|100.64.0.0/10|127.0.0.0/8|169.254.0.0/16|172.16.0.0/12|192.0.0.0/24|192.0.2.0/24|192.88.99.0/24|192.168.0.0/16|198.18.0.0/15|198.51.100.0/24|203.0.113.0/24|224.0.0.0/4|240.0.0.0/4|255.255.255.255/32]
+2024-05-12 17:30:38,479 DEBUG - OpenSim.Framework.OutboundUrlFilter [OUTBOUND URL FILTER]: OutboundDisallowForUserScriptsExcept for Script HTTP request module is []
+2024-05-12 17:30:38,479 INFO  - OpenSim.Region.CoreModules.Framework.InventoryAccess.BasicInventoryAccessModule [INVENTORY ACCESS MODULE]: BasicInventoryAccessModule enabled.
+2024-05-12 17:30:38,479 DEBUG - OpenSim.Region.CoreModules.Framework.EntityTransfer.EntityTransferModule [ENTITY TRANSFER MODULE]: BasicEntityTransferModule enabled.
+2024-05-12 17:30:38,550 INFO  - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine]: config enabled=True
+2024-05-12 17:30:38,560 DEBUG - OpenSim.Region.OptionalModules.World.TreePopulator.TreePopulatorModule [TREES]: Initialised tree populator module
+2024-05-12 17:30:38,575 DEBUG - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: Initialized
+2024-05-12 17:30:38,749 INFO  - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: Average Environment.TickCount resolution: 15.6ms
+2024-05-12 17:30:38,749 INFO  - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: Average Util.GetTimeStampMS resolution: 0.0001ms
+2024-05-12 17:30:38,789 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\BulletSim.dll
+2024-05-12 17:30:38,797 INFO  - OpenSim.Region.PhysicsModule.BulletS.BSScene [BULLETS SCENE] Selected bullet engine bulletunmanaged -> BulletUnmanaged/
+2024-05-12 17:30:38,810 INFO  - OpenSim.Region.PhysicsModule.BulletS.BSScene [BULLETS SCENE] Linksets implemented with Compound
+2024-05-12 17:30:38,825 INFO  - OpenSim.Region.CoreModules.WindModule [WIND] Found Plugin: ConfigurableWind
+2024-05-12 17:30:38,825 INFO  - OpenSim.Region.CoreModules.WindModule [WIND] Found Plugin: SimpleRandomWind
+2024-05-12 17:30:38,828 INFO  - OpenSim.Region.CoreModules.WindModule [WIND] SimpleRandomWind plugin found, initializing.
+2024-05-12 17:30:38,830 INFO  - OpenSim.Region.CoreModules.World.WorldMap.WorldMapModule [WORLD MAP]: JPEG Map location: http://192.168.3.223:9000/index.php?method=regionImagecd5fe6c9614a4645bcb3e17ddff4486b
+2024-05-12 17:30:38,830 DEBUG - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread MapBlocks (meta), ID 11
+2024-05-12 17:30:38,855 INFO  - OpenSim.Region.CoreModules.World.Terrain.TerrainModule L ... GenericSystemDrawing
+2024-05-12 17:30:38,855 INFO  - OpenSim.Region.CoreModules.World.Terrain.TerrainModule L ... JPEG
+2024-05-12 17:30:38,855 INFO  - OpenSim.Region.CoreModules.World.Terrain.TerrainModule L ... LLRAW
+2024-05-12 17:30:38,855 INFO  - OpenSim.Region.CoreModules.World.Terrain.TerrainModule L ... RAW32
+2024-05-12 17:30:38,855 INFO  - OpenSim.Region.CoreModules.World.Terrain.TerrainModule E ... ChannelDigger
+2024-05-12 17:30:38,855 INFO  - OpenSim.Region.CoreModules.World.Terrain.TerrainModule E ... DefaultTerrainGenerator
+2024-05-12 17:30:38,889 INFO  - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine]: Enabled for region meta
+2024-05-12 17:30:38,890 INFO  - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine]: 2.000MB stacksize, 1.000MB heapsize
+2024-05-12 17:30:38,891 DEBUG - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine]: starting thread Yengine sleep (meta)
+2024-05-12 17:30:38,891 DEBUG - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine]: starting thread YScript0 (meta)
+2024-05-12 17:30:38,900 DEBUG - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine]: starting thread YScript1 (meta)
+2024-05-12 17:30:38,909 DEBUG - OpenSim.Region.OptionalModules.Scripting.RegionReady.RegionReadyModule [RegionReady]: Enabled for region meta
+2024-05-12 17:30:38,909 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.UserAccounts.LocalUserAccountServicesConnector [LOCAL USER ACCOUNT SERVICE CONNECTOR]: Enabled local user accounts for region meta
+2024-05-12 17:30:38,920 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Neighbour.NeighbourServicesOutConnector [NEIGHBOUR CONNECTOR]: Enabled out neighbours for region meta
+2024-05-12 17:30:38,920 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.GridUser.LocalGridUserServicesConnector [LOCAL GRID USER SERVICE CONNECTOR]: Enabled local grid user for region meta
+2024-05-12 17:30:38,920 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Asset.RegionAssetConnector [REGIONASSETCONNECTOR]: active with cache for region meta
+2024-05-12 17:30:38,923 DEBUG - OpenSim.Server.Handlers.Login.LLLoginServiceInConnector [LLLOGIN IN CONNECTOR]: Starting...
+2024-05-12 17:30:38,925 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,925 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2024-05-12 17:30:38,925 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,925 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,925 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2024-05-12 17:30:38,925 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,925 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,925 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: Starting user grid service
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Services.AuthenticationService.PasswordAuthenticationService [AUTH SERVICE]: Started with User Account access
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: Starting...
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: Starting presence service
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Services.AvatarService.AvatarService [AVATAR SERVICE]: Starting avatar service
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Framework.Util [UTIL]: Loading native Windows library at lib32\sqlite3.dll
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Using LibraryService given as argument
+2024-05-12 17:30:38,930 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Starting...
+2024-05-12 17:30:38,930 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsIn.Grid.GridInfoServiceInConnectorModule [GridInfo]: Starting...
+2024-05-12 17:30:38,938 DEBUG - OpenSim.Server.Handlers.Grid.GridInfoHandlers [GRID INFO SERVICE]: Grid info service initialized with 5 keys
+2024-05-12 17:30:38,939 WARN  - OpenSim.Region.CoreModules.Framework.Search.BasicSearchModule [BASIC SEARCH MODULE]: Could not get IGroupsModule
+2024-05-12 17:30:39,050 INFO  - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: Starting inbound packet processing for the LLUDP server
+2024-05-12 17:30:39,050 DEBUG - OpenMetaverse.OpenSimUDPBase [UDPBASE]: Starting inbound UDP loop
+2024-05-12 17:30:39,050 DEBUG - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread Incoming Packets (meta), ID 19
+2024-05-12 17:30:39,059 INFO  - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: Starting outbound packet processing for the LLUDP server
+2024-05-12 17:30:39,059 DEBUG - OpenMetaverse.OpenSimUDPBase [UDPBASE]: Starting outbound UDP loop
+2024-05-12 17:30:39,059 DEBUG - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread Outgoing Packets (meta), ID 20
+2024-05-12 17:30:39,117 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.Authorization.AuthorizationService [AuthorizationService]: Region meta access restrictions: None
+2024-05-12 17:30:39,117 INFO  - OpenSim.Region.CoreModules.ServiceConnectorsOut.Authorization.LocalAuthorizationServicesConnector [AUTHORIZATION CONNECTOR]: Enabled local authorization for region meta
+2024-05-12 17:30:39,119 INFO  - OpenSim.Region.CoreModules.Scripting.ScriptModuleComms.ScriptModuleCommsModule [MODULE COMMANDS]: Script engine found, module active
+2024-05-12 17:30:39,130 INFO  - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine] Hooking up to server events
+2024-05-12 17:30:39,149 INFO  - OpenSim.OpenSimBase [SCENE]: Secure permissions loading enabled, modules loaded: DefaultPermissionsModule
+2024-05-12 17:30:54,325 INFO  - OpenSim.Services.AuthenticationService.AuthenticationServiceBase [AUTHENTICATION DB]: Set password for principalID 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-12 17:30:54,330 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: GetDefaultRegions returning 0 regions
+2024-05-12 17:30:54,330 WARN  - OpenSim.Services.UserAccountService.UserAccountService [USER ACCOUNT SERVICE]: Unable to set home for account marcelo firmino.
+2024-05-12 17:30:54,519 DEBUG - OpenSim.Services.UserAccountService.UserAccountService [USER ACCOUNT SERVICE]: Created user inventory for marcelo firmino
+2024-05-12 17:30:54,519 DEBUG - OpenSim.Services.UserAccountService.UserAccountService [USER ACCOUNT SERVICE]: Creating default appearance items for 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-12 17:30:54,639 DEBUG - OpenSim.Services.UserAccountService.UserAccountService [USER ACCOUNT SERVICE]: Creating default avatar entries for 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-12 17:30:54,691 INFO  - OpenSim.Services.UserAccountService.UserAccountService [USER ACCOUNT SERVICE]: Account marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b created successfully
+2024-05-12 17:30:54,700 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Loading land objects from storage
+2024-05-12 17:30:54,706 DEBUG - OpenSim.Region.CoreModules.World.Land.LandManagementModule [LAND MANAGEMENT MODULE]: Creating default parcel for region meta
+2024-05-12 17:30:54,719 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Loading objects from datastore
+2024-05-12 17:30:54,722 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Loaded 0 objects from the datastore
+2024-05-12 17:30:54,723 DEBUG - OpenSim.Region.CoreModules.Framework.UserManagement.UserManagementModule [USER MANAGEMENT MODULE]: Caching creators' data from meta (0 objects)...
+2024-05-12 17:30:54,729 DEBUG - OpenSim.Region.CoreModules.World.WorldMap.WorldMapModule [WORLD MAP]: Generating map image for meta
+2024-05-12 17:30:54,739 DEBUG - OpenSim.Region.CoreModules.World.LegacyMap.TexturedMapTileRenderer [TEXTURED MAPTILE RENDERER] Generating Maptile Step 1: Terrain
+2024-05-12 17:30:54,755 DEBUG - OpenSim.Region.CoreModules.World.LegacyMap.TexturedMapTileRenderer [TEXTURED MAPTILE RENDERER] Fetched texture b8d3965a-ad78-bf43-699b-bff8eca6c975, found: True
+2024-05-12 17:30:54,771 DEBUG - OpenSim.Region.CoreModules.World.LegacyMap.TexturedMapTileRenderer [TEXTURED MAPTILE RENDERER] Fetched texture abb783e6-3e93-26c0-248a-247666855da3, found: True
+2024-05-12 17:30:54,784 DEBUG - OpenSim.Region.CoreModules.World.LegacyMap.TexturedMapTileRenderer [TEXTURED MAPTILE RENDERER] Fetched texture 179cdabd-398a-9b6b-1391-4dc333ba321f, found: True
+2024-05-12 17:30:54,794 DEBUG - OpenSim.Region.CoreModules.World.LegacyMap.TexturedMapTileRenderer [TEXTURED MAPTILE RENDERER] Fetched texture beb169c7-11ea-fff2-efe5-0f24dc881df2, found: True
+2024-05-12 17:30:54,850 DEBUG - OpenSim.Region.CoreModules.World.LegacyMap.TexturedMapTileRenderer [TEXTURED MAPTILE RENDERER]: Generating Maptile Step 1: Done in 110 ms
+2024-05-12 17:30:54,859 DEBUG - OpenSim.Region.CoreModules.World.LegacyMap.MapImageModule [MAPTILE]: Generating Maptile Step 2: Object Volume Profile
+2024-05-12 17:30:54,866 DEBUG - OpenSim.Region.CoreModules.World.LegacyMap.MapImageModule [MAPTILE]: Generating Maptile Step 2: Done in 0 ms
+2024-05-12 17:30:54,882 DEBUG - OpenSim.Region.CoreModules.World.WorldMap.WorldMapModule [WORLD MAP]: Storing map image 7602aa78-b136-426d-bfff-f8d020dc7a70 for meta
+2024-05-12 17:30:54,900 DEBUG - OpenSim.Region.CoreModules.World.WorldMap.WorldMapModule [WORLD MAP]: Region meta has no parcels for sale, not generating overlay
+2024-05-12 17:30:54,909 DEBUG - OpenSim.Region.CoreModules.ServiceConnectorsOut.MapImage.MapImageServiceModule [MAP IMAGE SERVICE MODULE]: Upload maptile for meta
+2024-05-12 17:30:54,913 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: Region meta (cd5fe6c9-614a-4645-bcb3-e17ddff4486b, 256x256) registered at 1000,1000 with flags RegionOnline
+2024-05-12 17:30:54,920 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Initializing script instances in meta
+2024-05-12 17:30:54,920 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Initialized 0 script instances in meta
+2024-05-12 17:30:54,951 DEBUG - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine]: StartProcessing entry
+2024-05-12 17:30:54,951 DEBUG - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine]: StartProcessing return
+2024-05-12 17:30:54,951 DEBUG - OpenSim.Region.OptionalModules.Scripting.RegionReady.RegionReadyModule [RegionReady]: Script compile queue empty!
+2024-05-12 17:30:54,960 DEBUG - OpenSim.Region.OptionalModules.Scripting.RegionReady.RegionReadyModule [RegionReady]: Region "meta" is ready: "server_startup,0," on channel -800
+2024-05-12 17:30:54,979 DEBUG - OpenSim.Region.PhysicsModule.BulletS.BSScene [BULLETSIM TERRAIN MANAGER] Terrain for meta/<0, 0, 0> created with Heightmap
+2024-05-12 17:30:59,462 DEBUG - OpenSim.Framework.TerrainData [TERRAIN DATA] V2DGzip 62212 bytes
+2024-05-12 17:30:59,462 DEBUG - OpenSim.Data.SQLite.SQLiteSimulationData [REGION DB SQLITE] Storing terrain format 23
+2024-05-12 17:30:59,488 DEBUG - OpenSim.Region.PhysicsModule.BulletS.BSScene [BULLETSIM TERRAIN MANAGER] Terrain for meta/<0, 0, 0> created with Heightmap
+2024-05-12 17:31:27,610 INFO  - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Login request for marcelo firmino at uri:meta&128&128&0 using viewer 5.0.7.52912, channel Firestorm-Release, IP 127.0.0.1, Mac 3e4434e1536e344d119de783cd6b63f6, Id0 6673dee8b4c6881f4498c2d5b3a568f2 
+2024-05-12 17:31:27,648 DEBUG - OpenSim.Services.AuthenticationService.PasswordAuthenticationService [AUTH SERVICE]: Authenticating for 8a137126-9202-4244-b3e9-a1ec7d39f59b, user account service present: True
+2024-05-12 17:31:27,724 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: LoginAgent: session cf61b442-6f5c-4c3c-9707-55c8f95c4ba3, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region 00000000-0000-0000-0000-000000000000, secure session 46c73ee8-9b0d-4209-9851-cf401f1d6306
+2024-05-12 17:31:27,724 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE] Failed to fetch GridUserInfo. Creating empty GridUserInfo as home
+2024-05-12 17:31:27,729 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Finding destination matching start location uri:meta&128&128&0 for marcelo firmino
+2024-05-12 17:31:27,755 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Found destination meta, endpoint 192.168.3.223:9000 for marcelo firmino
+2024-05-12 17:31:27,819 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Region meta told of incoming root agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b (circuit code 731596889, IP 127.0.0.1, viewer Firestorm-Release 5.0.7.52912, teleportflags (ViaLogin, ViaRegionID), position <128, 128, 0>. 
+2024-05-12 17:31:27,835 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE meta]: authorized child agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b (circuit code 731596889)
+2024-05-12 17:31:27,852 DEBUG - OpenSim.Region.CoreModules.Framework.CapabilitiesModule [CreateCaps]: new caps agent 8a137126-9202-4244-b3e9-a1ec7d39f59b, circuit 731596889, path edcc7afb-63a8-4c0d-b20a-6982dce69b14
+2024-05-12 17:31:27,941 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User 8a137126-9202-4244-b3e9-a1ec7d39f59b is online
+2024-05-12 17:31:27,969 DEBUG - OpenSim.Services.LLLoginService.LLLoginResponse [LOGIN RESPONSE] LLLoginResponse create. sizeX=256, sizeY=256
+2024-05-12 17:31:27,980 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: All clear. Sending login response to marcelo firmino
+2024-05-12 17:31:27,984 DEBUG - OpenSim.Services.LLLoginService.LLLoginResponse [LOGIN RESPONSE] returning sizeX=256, sizeY=256
+2024-05-12 17:31:37,929 DEBUG - OpenSim.Region.ClientStack.Linden.BunchOfCaps [CAPS]: Received SEED caps request in meta for agent 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-12 17:31:37,929 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Incoming client marcelo firmino in region meta via regular login. Client IP verification not performed.
+2024-05-12 17:31:39,903 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: Handling UseCircuitCode request for circuit 731596889 to meta from IP 192.168.3.223:63418
+2024-05-12 17:31:39,959 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Adding new child scene presence marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b to scene meta at pos <128, 128, 0>, tpflags: ViaLogin, ViaRegionID
+2024-05-12 17:31:40,169 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: Client created
+2024-05-12 17:31:40,169 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: processing UseCircuitCode pending queue, 5 entries
+2024-05-12 17:31:40,219 INFO  - OpenSim.Region.Framework.Scenes.ScenePresence [SCENE PRESENCE]: Complete movement of marcelo firmino into meta <128, 128, 0>
+2024-05-12 17:31:40,294 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: ReportAgent: session cf61b442-6f5c-4c3c-9707-55c8f95c4ba3, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b. Previously: region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-12 17:31:40,599 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [CompleteMovement] end: 391ms
+2024-05-12 17:31:40,759 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SCENE PRESENCE(meta)]: SendInitialData for 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-12 17:31:40,759 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SCENE PRESENCE(meta)]: SendInitialData at parcel c27dec46-5b77-4d30-a010-21dea4e658f8
+2024-05-12 17:31:47,581 DEBUG - OpenSim.Region.CoreModules.Framework.InventoryAccess.BasicInventoryAccessModule [INVENTORY ACCESS MODULE]: Received request to create inventory item marcelo firmino in folder 97c71821-1c6c-49ed-9281-887ef060a00e, transactionID 00000000-0000-0000-0000-000000000000
+2024-05-12 17:31:51,420 DEBUG - OpenSim.Region.CoreModules.Avatar.AvatarFactory.AvatarFactoryModule [AVFACTORY]: Received texture update for marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-12 17:32:05,550 INFO  - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Got a logout request for marcelo firmino in meta
+2024-05-12 17:32:05,561 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Close has been called for marcelo firmino attached to scene meta
+2024-05-12 17:32:05,569 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User 8a137126-9202-4244-b3e9-a1ec7d39f59b is offline
+2024-05-12 17:32:05,587 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: LogoutAgent: session cf61b442-6f5c-4c3c-9707-55c8f95c4ba3, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-12 17:32:05,593 DEBUG - OpenSim.Framework.Monitoring.JobEngine [JobEngine] Stopping AsyncInUDP-8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-12 17:32:05,597 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Removing root agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b from meta
+2024-05-12 17:32:05,606 DEBUG - OpenSim.Region.Framework.Scenes.Scene [Scene] The avatar has left the building
+2024-05-12 17:32:05,610 DEBUG - OpenSim.Region.CoreModules.Framework.CapabilitiesModule [CAPS]: Remove caps for agent 8a137126-9202-4244-b3e9-a1ec7d39f59b in region meta
+2024-05-12 17:32:37,650 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiverModule [ARCHIVER]: Loading archive to region meta from C:\Users\Marcelo F\Downloads\mdv.oar
+2024-05-12 17:32:37,667 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Loading OAR with version 0.8
+2024-05-12 17:32:37,667 DEBUG - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Found region_size info <256, 256, 0>
+2024-05-12 17:32:37,714 DEBUG - OpenSim.Region.Framework.Scenes.TerrainChannel [TERRAIN CHANNEL] MergeWithBounding: inSize=<256,256>, rot=0, boundingOrigin=<0, 0>, boundingSize=<256, 256>, disp=<0, 0, 0>, outSize=<256,256>
+2024-05-12 17:32:37,746 DEBUG - OpenSim.Framework.TerrainData [TERRAIN DATA] V2DGzip 63196 bytes
+2024-05-12 17:32:37,746 DEBUG - OpenSim.Data.SQLite.SQLiteSimulationData [REGION DB SQLITE] Storing bakedterrain format 23
+2024-05-12 17:32:37,746 INFO  - OpenSim.Region.CoreModules.World.Terrain.TerrainModule [TERRAIN]: File (terrains/simonastick 1.r32) loaded successfully
+2024-05-12 17:32:37,746 DEBUG - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Restored terrain terrains/simonastick 1.r32
+2024-05-12 17:32:39,594 DEBUG - OpenSim.Framework.TerrainData [TERRAIN DATA] V2DGzip 63196 bytes
+2024-05-12 17:32:39,594 DEBUG - OpenSim.Data.SQLite.SQLiteSimulationData [REGION DB SQLITE] Storing terrain format 23
+2024-05-12 17:32:39,613 DEBUG - OpenSim.Region.PhysicsModule.BulletS.BSScene [BULLETSIM TERRAIN MANAGER] Terrain for meta/<0, 0, 0> created with Heightmap
+2024-05-12 17:32:41,333 DEBUG - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]:  done 250; uploaded: 244 skipped: 6 failed: 0 assets...
+2024-05-12 17:32:44,597 DEBUG - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]:  done 500; uploaded: 490 skipped: 10 failed: 0 assets...
+2024-05-12 17:32:48,552 DEBUG - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]:  done 750; uploaded: 739 skipped: 11 failed: 0 assets...
+2024-05-12 17:32:51,969 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]:   Restored 994 assets
+2024-05-12 17:32:51,969 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]:     Skipped 13 asset uploads
+2024-05-12 17:32:51,969 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Loading region meta
+2024-05-12 17:32:51,969 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Clearing all existing scene objects
+2024-05-12 17:32:51,985 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Loading 1 parcels.  Please wait.
+2024-05-12 17:32:52,001 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Clearing 1 parcels.
+2024-05-12 17:32:52,064 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Added 1 total parcels.
+2024-05-12 17:32:52,064 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Loading 348 scene objects.  Please wait.
+2024-05-12 17:32:55,490 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Loaded 348 scene objects to the scene
+2024-05-12 17:32:55,510 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Successfully loaded archive
+2024-05-12 17:32:55,512 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Starting scripts in scene objects...
+2024-05-12 17:32:55,569 DEBUG - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine]: adding api LSL
+2024-05-12 17:32:55,569 DEBUG - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine]: adding api LS
+2024-05-12 17:32:55,569 DEBUG - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine]: adding api MOD
+2024-05-12 17:32:55,569 DEBUG - OpenSim.Region.ScriptEngine.Yengine.Yengine [YEngine]: adding api OSSL
+2024-05-12 17:32:55,664 DEBUG - OpenSim.Framework.Monitoring.Watchdog [WATCHDOG]: Started tracking thread AsyncLSLCmdHandlerThread, ID 32
+2024-05-12 17:32:58,213 INFO  - OpenSim.Region.CoreModules.World.Archiver.ArchiveReadRequest [ARCHIVER]: Start scripts done
+2024-05-12 17:35:44,836 INFO  - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Login request for marcelo firmino at uri:mdv&128&128&0 using viewer 6.6.17.70368, channel Firestorm-Releasex64, IP 127.0.0.1, Mac 887ab2b7222261325a718a646f9982f5, Id0 6673dee8b4c6881f4498c2d5b3a568f2 
+2024-05-12 17:35:44,836 DEBUG - OpenSim.Services.AuthenticationService.PasswordAuthenticationService [AUTH SERVICE]: Authenticating for 8a137126-9202-4244-b3e9-a1ec7d39f59b, user account service present: True
+2024-05-12 17:35:44,836 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: LoginAgent: session ca46a4a0-f36f-4097-b632-428cfc844323, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region 00000000-0000-0000-0000-000000000000, secure session 888b50b8-ede5-43ee-8d9a-fc84de0e594b
+2024-05-12 17:35:44,836 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Finding destination matching start location uri:mdv&128&128&0 for marcelo firmino
+2024-05-12 17:35:44,836 INFO  - OpenSim.Services.LLLoginService.LLLoginService [LLLOGIN SERVICE]: Got Custom Login URI uri:mdv&128&128&0, can't locate region mdv. Trying defaults.
+2024-05-12 17:35:44,836 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: GetDefaultRegions returning 0 regions
+2024-05-12 17:35:44,836 INFO  - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Last Region Not Found Attempting to find random region
+2024-05-12 17:35:44,846 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: Fallback returned 0 regions
+2024-05-12 17:35:44,846 DEBUG - OpenSim.Services.GridService.GridService [GRID SERVICE]: online returned 1 regions
+2024-05-12 17:35:44,846 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: Found destination meta, endpoint 192.168.3.223:9000 for marcelo firmino
+2024-05-12 17:35:44,846 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Region meta told of incoming root agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b (circuit code 2007500763, IP 127.0.0.1, viewer Firestorm-Releasex64 6.6.17.70368, teleportflags (ViaLogin, ViaRegionID), position <128, 128, 0>. 
+2024-05-12 17:35:44,851 INFO  - OpenSim.Region.Framework.Scenes.Scene [SCENE meta]: authorized child agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b (circuit code 2007500763)
+2024-05-12 17:35:44,852 DEBUG - OpenSim.Region.CoreModules.Framework.CapabilitiesModule [CreateCaps]: new caps agent 8a137126-9202-4244-b3e9-a1ec7d39f59b, circuit 2007500763, path ee94b7c0-451f-46bd-be88-5271a7c8e160
+2024-05-12 17:35:44,852 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User 8a137126-9202-4244-b3e9-a1ec7d39f59b is online
+2024-05-12 17:35:44,857 DEBUG - OpenSim.Services.LLLoginService.LLLoginResponse [LOGIN RESPONSE] LLLoginResponse create. sizeX=256, sizeY=256
+2024-05-12 17:35:44,857 DEBUG - OpenSim.Services.LLLoginService.LLLoginService [LLOGIN SERVICE]: All clear. Sending login response to marcelo firmino
+2024-05-12 17:35:44,857 DEBUG - OpenSim.Services.LLLoginService.LLLoginResponse [LOGIN RESPONSE] returning sizeX=256, sizeY=256
+2024-05-12 17:35:45,446 DEBUG - OpenSim.Region.ClientStack.Linden.BunchOfCaps [CAPS]: Received SEED caps request in meta for agent 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-12 17:35:45,452 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Incoming client marcelo firmino in region meta via regular login. Client IP verification not performed.
+2024-05-12 17:35:46,626 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: Handling UseCircuitCode request for circuit 2007500763 to meta from IP 192.168.3.223:62225
+2024-05-12 17:35:46,633 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Adding new child scene presence marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b to scene meta at pos <128, 128, 0>, tpflags: ViaLogin, ViaRegionID
+2024-05-12 17:35:46,633 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: Client created
+2024-05-12 17:35:46,633 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLUDPServer [LLUDPSERVER]: processing UseCircuitCode pending queue, 0 entries
+2024-05-12 17:35:46,848 INFO  - OpenSim.Region.Framework.Scenes.ScenePresence [SCENE PRESENCE]: Complete movement of marcelo firmino into meta <128, 128, 0>
+2024-05-12 17:35:46,911 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: ReportAgent: session ca46a4a0-f36f-4097-b632-428cfc844323, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b. Previously: region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-12 17:35:46,926 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [CompleteMovement] end: 78ms
+2024-05-12 17:35:47,246 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SCENE PRESENCE(meta)]: SendInitialData for 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-12 17:35:47,246 DEBUG - OpenSim.Region.Framework.Scenes.ScenePresence [SCENE PRESENCE(meta)]: SendInitialData at parcel 3d7d0e72-7209-4ebd-af93-1d244fff5f68
+2024-05-12 17:35:54,592 DEBUG - OpenSim.Region.CoreModules.Avatar.AvatarFactory.AvatarFactoryModule [AVFACTORY]: Received texture update for marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-12 17:35:54,636 WARN  - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-12 17:35:54,636 WARN  - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-12 17:35:54,636 WARN  - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-12 17:35:54,636 WARN  - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-12 17:35:54,636 WARN  - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-12 17:35:54,636 WARN  - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-12 17:35:54,645 WARN  - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-12 17:35:54,651 WARN  - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-12 17:35:54,652 WARN  - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-12 17:35:54,652 WARN  - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-12 17:36:00,077 WARN  - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: request for unknown material ID: 63cfb53f-f24c-dd8b-c13f-159ef857b6cd
+2024-05-12 17:36:15,733 WARN  - OpenSim.Region.OptionalModules.Materials.MaterialsModule [Materials]: request for unknown material ID: 405d20ce-0bfe-e344-8661-624961658a1a
+2024-05-12 17:43:26,301 INFO  - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Got a logout request for marcelo firmino in meta
+2024-05-12 17:43:26,324 DEBUG - OpenSim.Region.ClientStack.LindenUDP.LLClientView [CLIENT]: Close has been called for marcelo firmino attached to scene meta
+2024-05-12 17:43:26,424 DEBUG - OpenSim.Services.UserAccountService.GridUserService [GRID USER SERVICE]: User 8a137126-9202-4244-b3e9-a1ec7d39f59b is offline
+2024-05-12 17:43:26,494 DEBUG - OpenSim.Services.PresenceService.PresenceService [PRESENCE SERVICE]: LogoutAgent: session ca46a4a0-f36f-4097-b632-428cfc844323, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-12 17:43:26,741 DEBUG - OpenSim.Framework.Monitoring.JobEngine [JobEngine] Stopping AsyncInUDP-8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-12 17:43:26,743 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Removing root agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b from meta
+2024-05-12 17:43:26,757 DEBUG - OpenSim.Region.Framework.Scenes.Scene [Scene] The avatar has left the building
+2024-05-12 17:43:27,290 DEBUG - OpenSim.Region.CoreModules.Framework.CapabilitiesModule [CAPS]: Remove caps for agent 8a137126-9202-4244-b3e9-a1ec7d39f59b in region meta
