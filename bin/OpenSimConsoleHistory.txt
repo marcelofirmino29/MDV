@@ -1,5 +1,3 @@
 meta
-mestastate
-marcelo
-firmino
-load oar "C:\Users\Marcelo F\Downloads\mdv.oar"
+verso
+create user
