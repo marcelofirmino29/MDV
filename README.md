@@ -1,115 +1,107 @@
-Welcome to OpenSimulator (OpenSim for short)!
+Bem-vindo ao OpenSimulator (OpenSim para abreviar)!
 
-# Overview
+# Visão geral
 
-OpenSim is a BSD Licensed Open Source project to develop a functioning
-virtual worlds server platform capable of supporting multiple clients
-and servers in a heterogeneous grid structure. OpenSim is written in
-C#, and can run under Mono or the Microsoft .NET runtimes.
+OpenSim é um projeto de código aberto licenciado pela BSD para desenvolver uma plataforma de servidor de mundos virtuais funcional capaz de suportar múltiplos clientes e servidores em uma estrutura de grade heterogênea. OpenSim é escrito em C# e pode ser executado sob o Mono ou os runtimes do Microsoft .NET.
 
-This is considered an alpha release.  Some stuff works, a lot doesn't.
-If it breaks, you get to keep *both* pieces.
+Isso é considerado um lançamento alfa. Algumas coisas funcionam, muitas não. Se quebrar, você ficará com *ambos* pedaços.
 
-# Compiling OpenSim
+# Compilando o OpenSim
 
-Please see BUILDING.md if you downloaded a source distribution and 
-need to build OpenSim before running it.
+Consulte o BUILDING.md se você baixou uma distribuição de código-fonte e precisa compilar o OpenSim antes de executá-lo.
 
-# Running OpenSim on Windows
+# Executando o OpenSim no Windows
 
-You will need .NET 4.0 for versions up to 0.9.0.1 and .NET 4.6 for others.
+Você precisará do .NET 4.0 para versões até 0.9.0.1 e do .NET 4.6 para outras.
 
-We recommend that you run OpenSim from a command prompt on Windows in order
-to capture any errors.
+Recomendamos que você execute o OpenSim a partir de um prompt de comando no Windows para capturar quaisquer erros.
 
-To run OpenSim from a command prompt
+Para executar o OpenSim a partir de um prompt de comando
 
- * cd to the bin/ directory where you unpacked OpenSim
- * review and change configuration files (.ini) for your needs. see the "Configuring OpenSim" section
- * run OpenSim.exe or opensim32.exe for small regions
+ * acesse o diretório bin/ onde você descompactou o OpenSim
+ * revise e altere os arquivos de configuração (.ini) conforme suas necessidades. veja a seção "Configurando o OpenSim"
+ * execute OpenSim.exe ou opensim32.exe para regiões pequenas
 
 
-# Running OpenSim on Linux
+# Executando o OpenSim no Linux
 
-You will need Mono >= 2.10.8.1 up to version 0.9.0.1 and mono > 5.0 on others.  On some Linux distributions you
-may need to install additional packages.  See http://opensimulator.org/wiki/Dependencies
-for more information.
+Você precisará do Mono >= 2.10.8.1 até a versão 0.9.0.1 e do mono > 5.0 em outros. Em algumas distribuições Linux, você
+pode precisar instalar pacotes adicionais. Veja http://opensimulator.org/wiki/Dependencies
+para mais informações.
 
-To run OpenSim, from the unpacked distribution type:
+Para executar o OpenSim, a partir da distribuição descompactada, digite:
 
  * cd bin
- * review and change configuration files (.ini) for your needs. see the "Configuring OpenSim" section
- * run ./opensim.sh
+ * revise e altere os arquivos de configuração (.ini) conforme suas necessidades. veja a seção "Configurando o OpenSim"
+ * execute ./opensim.sh
 
 
-# Configuring OpenSim
+# Configurando o OpenSim
 
-When OpenSim starts for the first time, you will be prompted with a
-series of questions that look something like:
+Quando o OpenSim é iniciado pela primeira vez, você será solicitado com uma série de perguntas que se parecem com:
 
-	[09-17 03:54:40] DEFAULT REGION CONFIG: Simulator Name [OpenSim Test]:
+	[09-17 03:54:40] DEFAULT REGION CONFIG: Nome do Simulador [OpenSim Test]:
 
-For all the options except simulator name, you can safely hit enter to accept
-the default if you want to connect using a client on the same machine or over
-your local network.
+Para todas as opções exceto o nome do simulador, você pode pressionar enter com segurança para aceitar
+o padrão se você deseja conectar usando um cliente na mesma máquina ou através
+da sua rede local.
 
-You will then be asked "Do you wish to join an existing estate?".  If you're
-starting OpenSim for the first time then answer no (which is the default) and
-provide an estate name.
+Você será então perguntado "Você deseja entrar em um estado existente?". Se você é
+iniciando o OpenSim pela primeira vez, então responda não (que é o padrão) e
+forneça um nome de estado.
 
-Shortly afterwards, you will then be asked to enter an estate owner first name,
-last name, password and e-mail (which can be left blank).  Do not forget these
-details, since initially only this account will be able to manage your region
-in-world.  You can also use these details to perform your first login.
+Pouco depois, você será solicitado a inserir um primeiro nome de proprietário do estado,
+último nome, senha e e-mail (que podem ser deixados em branco). Não se esqueça desses
+detalhes, pois inicialmente apenas esta conta poderá gerenciar sua região
+no mundo. Você também pode usar esses detalhes para fazer seu primeiro login.
 
-Once you are presented with a prompt that looks like:
+Assim que você for apresentado com um prompt que se parece com:
 
-	Region (My region name) #
+	Região (Meu nome de região) #
 
-You have successfully started OpenSim.
+Você iniciou com sucesso o OpenSim.
 
-If you want to create another user account to login rather than the estate
-account, then type "create user" on the OpenSim console and follow the prompts.
+Se você deseja criar outra conta de usuário para fazer login em vez da conta de estado,
+então digite "create user" no console do OpenSim e siga as instruções.
 
-Helpful resources:
+Recursos úteis:
  * http://opensimulator.org/wiki/Configuration
  * http://opensimulator.org/wiki/Configuring_Regions
 
-# Connecting to your OpenSim
+# Conectando-se ao seu OpenSim
 
-By default your sim will be available for login on port 9000.  You can login by
-adding -loginuri http://127.0.0.1:9000 to the command that starts Second Life
-(e.g. in the Target: box of the client icon properties on Windows).  You can
-also login using the network IP address of the machine running OpenSim (e.g.
+Por padrão, seu simulador estará disponível para login na porta 9000. Você pode fazer login
+adicionando -loginuri http://127.0.0.1:9000 ao comando que inicia o Second Life
+(por exemplo, na caixa Destino: das propriedades do ícone do cliente no Windows). Você pode
+também fazer login usando o endereço IP de rede da máquina que está executando o OpenSim (por exemplo,
 http://192.168.1.2:9000)
 
-To login, use the avatar details that you gave for your estate ownership or the
-one you set up using the "create user" command.
+Para fazer login, use os detalhes do avatar que você deu para a propriedade de estado ou o
+que você configurou usando o comando "create user".
 
-# Bug reports
+# Relatórios de Bugs
 
-In the very likely event of bugs biting you (err, your OpenSim) we
-encourage you to see whether the problem has already been reported on
-the [OpenSim mantis system](http://opensimulator.org/mantis/main_page.php).
+No evento muito provável de bugs o morderem (err, seu OpenSim), nós
+encorajamos você a verificar se o problema já foi relatado no
+sistema [mantis do OpenSim](http://opensimulator.org/mantis/main_page.php).
 
-If your bug has already been reported, you might want to add to the
-bug description and supply additional information.
+Se o seu bug já foi relatado, você pode querer adicionar ao
+descrição do bug e fornecer informações adicionais.
 
-If your bug has not been reported yet, file a bug report ("opening a
-mantis"). Useful information to include:
- * description of what went wrong
- * stack trace
- * OpenSim.log (attach as file)
- * OpenSim.ini (attach as file)
- * if running under mono: run OpenSim.exe with the "--debug" flag:
+Se o seu bug ainda não foi relatado, envie um relatório de bug ("abertura de um
+mantis"). Informações úteis para incluir:
+ * descrição do que deu errado
+ * rastreamento de pilha
+ * OpenSim.log (anexar como arquivo)
+ * OpenSim.ini (anexar como arquivo)
+ * se estiver rodando sob mono: execute OpenSim.exe com a bandeira "--debug":
 
        mono --debug OpenSim.exe
 
-# More Information on OpenSim
+# Mais Informações sobre o OpenSim
 
-More extensive information on building, running, and configuring
-OpenSim, as well as how to report bugs, and participate in the OpenSim
-project can always be found at http://opensimulator.org.
+Informações mais extensas sobre compilar, executar e configurar
+OpenSim, bem como como relatar bugs e participar do OpenSim
+projeto sempre podem ser encontradas em http://opensimulator.org.
 
-Thanks for trying OpenSim, we hope it is a pleasant experience.
-
+Obrigado por experimentar o OpenSim, esperamos que seja uma experiência agradável.
