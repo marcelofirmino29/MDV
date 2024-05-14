@@ -1,4 +1,6 @@
+#Produto técnico do Mestrado em Propriedade Intelectual e Tranferência de Tecnologia
 
+Este projeto tem como objetivo criar um ambiente educacional virtual, um metaverso, em conformidade com o contexto do Mestrado em Propriedade Intelectual e Transferência de Tecnologia. A proposta central é desenvolver uma plataforma interativa que abranja os princípios da química e explore as nuances da propriedade intelectual. O metaverso proposto proporcionará espaços em três dimensões para a exploração de conceitos, simulações de reações químicas e cenários relacionados à proteção intelectual. A inclusão de elementos de gamificação tem como objetivo aumentar o engajamento dos estudantes. O processo de desenvolvimento seguirá etapas de pesquisa, design, desenvolvimento, testes e implementação. Espera-se que a solução resultante ofereça aos estudantes uma compreensão mais aprofundada dos conceitos químicos, simultaneamente com os aspectos da inovação e da propriedade intelectual, contribuindo assim para aprimorar a experiência de aprendizagem no campo da química e da propriedade intelectual. Essa abordagem integrada tem o potencial de enriquecer significativamente o ensino e a compreensão desses conceitos complexos.
 
 # Ilha Mãe Dos Ventos, Um Metaverso Educacional
 
