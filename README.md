@@ -161,7 +161,7 @@ Configurações Iniciais:
 *Vá para “Editar” > “Preferências”.
 *Na seção “Gráficos”, escolha a opção “Médio” para melhor desempenho.
 *Na seção “Chat”, selecione a opção “Grande” para melhor legibilidade.
-*Em “Grids”, crie um novo grid com o endereço do servidor onde a plataforma virtual está hospedada. 
+*Em “Grids”, crie um novo grid com o endereço do servidor onde a plataforma virtual está hospedada, em geral localhost:9000. 
 *Dê um nome e clique em “OK”.
 
 ### Login:
@@ -170,4 +170,32 @@ Configurações Iniciais:
 ### Lembre-se de verificar o site oficial do Singularity Viewer para obter mais informações e suporte. 
 ### Boa exploração virtual! 🌟
 
+
+-------------------------------------------------
+# Firestorm Viewer (Alternativa)
+
+## O Firestorm Viewer é um visualizador de código aberto para mundos virtuais, como o Second Life. Ele permite que você explore ambientes virtuais, interaja com outros usuários e crie conteúdo. Aqui estão algumas dicas para usar o Firestorm Viewer:
+
+### Instalação:
+No Linux, você pode instalar o Firestorm Viewer via Flatpak. Basta digitar o seguinte comando em um terminal:
+flatpak run org.firestormviewer.FirestormViewer
+
+Você também pode procurar o aplicativo no menu de aplicativos da sua distribuição Linux.
+
+### Configurações:
+
+Ao iniciar o Firestorm, você pode personalizar várias configurações, como gráficos, áudio e controles.
+Explore as opções de preferências para ajustar o visualizador de acordo com suas preferências.
+
+Exploração:
+Use as teclas de seta ou o mouse para mover sua câmera e explorar o ambiente.
+Clique com o botão direito do mouse para interagir com objetos e outros avatares.
+
+Comunicação:
+O Firestorm Viewer permite que você converse com outros usuários por meio de chat.
+Use a barra de chat na parte inferior da tela para enviar mensagens.
+
+Criação de Conteúdo:
+Se você deseja criar conteúdo, como roupas, objetos ou animações, explore as ferramentas de criação disponíveis no Firestorm.
+Lembre-se de que o Firestorm Viewer é uma ferramenta poderosa, e há muito mais recursos para explorar. Divirta-se explorando os mundos virtuais! 🌟
 
