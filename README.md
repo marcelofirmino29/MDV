@@ -4,6 +4,9 @@ Este projeto tem como objetivo criar um ambiente educacional virtual, um metaver
 
 # Ilha Mãe Dos Ventos, Um Metaverso Educacional
 
+![fm2](https://github.com/marcelofirmino29/MDV/assets/7969724/4ae750b3-7d5a-4977-a680-25b1be8acdc6)
+
+
 Uma ilha que se configura como um ambiente de interação imersivo para o metaverso educacional, onde o aprendizado se torna uma experiência multissensorial e envolvente.
 
 Através de avatares personalizáveis, os estudantes exploram a ilha, participando de atividades interativas e colaborativas. Essa imersão permite que os alunos aprendam de forma experiencial, aplicando conceitos teóricos em situações práticas e contextualizadas.
@@ -11,17 +14,22 @@ Através de avatares personalizáveis, os estudantes exploram a ilha, participan
 A ilha, facilita a interação social entre alunos e professores, promovendo a colaboração e o trabalho em equipe. Os alunos podem participar de debates em tempo real, realizar pesquisas em conjunto e solucionar problemas de forma colaborativa.
 
 
-Na "Videoteca", os alunos podem assistir a videoaulas interativas e participar de debates sobre os temas abordados.
+* Na "Videoteca", os alunos podem assistir a videoaulas interativas e participar de debates sobre os temas abordados.
+![vi](https://github.com/marcelofirmino29/MDV/assets/7969724/10df41f5-bb6d-4ade-a4d0-6ab44bbad984)
 
 
-Nas "Malocas Gémeas", registrada, os alunos podem se reunir para discutir projetos em grupo, realizar trabalhos colaborativos e trocar ideias com seus colegas.
+* Nas "Malocas Gémeas", registrada, os alunos podem se reunir para discutir projetos em grupo, realizar trabalhos colaborativos e trocar ideias com seus colegas.
+![ma](https://github.com/marcelofirmino29/MDV/assets/7969724/2ee3e85d-af2d-4384-8213-d4dcab26ce54)
 
 
-Na área de "química divertida", demonstrada na, os alunos podem realizar experimentos virtuais, observar reações químicas e aprender sobre os diferentes elementos da tabela periódica.
+* Na área de "química divertida", demonstrada na, os alunos podem realizar experimentos virtuais, observar reações químicas e aprender sobre os diferentes elementos da tabela periódica.
+![AULA2](https://github.com/marcelofirmino29/MDV/assets/7969724/35bc8434-218d-46f3-a422-48909674636c)
 
-No "Parque Eólico", os alunos podem aprender sobre energia renovável, sustentabilidade e os impactos do meio ambiente.
+* No "Parque Eólico", os alunos podem aprender sobre energia renovável, sustentabilidade e os impactos do meio ambiente.
+![eo](https://github.com/marcelofirmino29/MDV/assets/7969724/3f4a26ca-6817-4acd-a54a-26dd12b692b2)
 
-Blocos Tech são salas de aula high-tech, ilustrado na, laboratórios avançados e acesso global à informação, tudo integrado para uma experiência de aprendizado imersiva e personalizada, preparando os alunos para as atividades.
+* Blocos Tech são salas de aula high-tech, ilustrado na, laboratórios avançados e acesso global à informação, tudo integrado para uma experiência de aprendizado imersiva e personalizada, preparando os alunos para as atividades.
+![fm4](https://github.com/marcelofirmino29/MDV/assets/7969724/f87e1059-b706-41eb-810f-846f568a27f1)
 
 A ilha mãe dos ventos, como um ambiente de interação no metaverso educacional, oferece uma experiência de aprendizado imersiva, interativa e personalizada por meio de ferramentas customizáveis quem podem ser programadas de acordo com a demanda necessária. 
 
@@ -46,7 +54,9 @@ Para executar o OpenSim a partir de um prompt de comando
 
  * acesse o diretório bin/ onde você descompactou o OpenSim
  * revise e altere os arquivos de configuração (.ini) conforme suas necessidades. veja a seção "Configurando o OpenSim"
- * execute OpenSim.exe ou opensim32.exe para regiões pequenas
+ * execute OpenSim.exe ou opensim32.exe para regiões pequenas.
+   
+![image](https://github.com/marcelofirmino29/MDV/assets/7969724/8ab6443d-1404-4901-bf05-3290658e8d9e)
 
 
 # Executando o OpenSim no Linux
@@ -83,7 +93,7 @@ no mundo. Você também pode usar esses detalhes para fazer seu primeiro login.
 
 Assim que você for apresentado com um prompt que se parece com:
 
-	Região (Meu nome de região) #
+	Region (Meu nome de região) #
 
 Você iniciou com sucesso o OpenSim.
 
@@ -131,3 +141,33 @@ OpenSim, bem como como relatar bugs e participar do OpenSim
 projeto sempre podem ser encontradas em http://opensimulator.org.
 
 Obrigado por experimentar o OpenSim, esperamos que seja uma experiência agradável.
+
+
+-----------------------------------------------------
+
+# Singularity Viewer
+
+## Para usar o Singularity Viewer em plataformas como OpenSim, siga estas etapas:
+
+Download e Instalação:
+
+Acesse o site oficial do Singularity Viewer e baixe a versão adequada para o seu sistema operacional.
+
+Execute o arquivo baixado e siga as instruções de instalação.
+
+Configurações Iniciais:
+
+### Abra o Singularity Viewer.
+*Vá para “Editar” > “Preferências”.
+*Na seção “Gráficos”, escolha a opção “Médio” para melhor desempenho.
+*Na seção “Chat”, selecione a opção “Grande” para melhor legibilidade.
+*Em “Grids”, crie um novo grid com o endereço do servidor onde a plataforma virtual está hospedada. 
+*Dê um nome e clique em “OK”.
+
+### Login:
+*Insira suas credenciais (nome de usuário e senha) para acessar o mundo virtual.
+
+### Lembre-se de verificar o site oficial do Singularity Viewer para obter mais informações e suporte. 
+### Boa exploração virtual! 🌟
+
+
