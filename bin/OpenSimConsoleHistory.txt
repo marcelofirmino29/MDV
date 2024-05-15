@@ -1,3 +1,4 @@
 meta
 verso
 create user
+exit

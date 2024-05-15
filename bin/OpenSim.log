@@ -822,3 +822,1002 @@
 2024-05-12 20:12:16,727 DEBUG - OpenSim.Region.Framework.Scenes.Scene [SCENE]: Removing root agent meta verso 5979929a-11f6-4470-8f98-c336da93e9b9 from meta
 2024-05-12 20:12:16,786 DEBUG - OpenSim.Region.Framework.Scenes.Scene [Scene] The avatar has left the building
 2024-05-12 20:12:16,841 DEBUG - OpenSim.Region.CoreModules.Framework.CapabilitiesModule [CAPS]: Remove caps for agent 5979929a-11f6-4470-8f98-c336da93e9b9 in region meta
+2024-05-15 11:27:24,668 INFO  [OPENSIM MAIN]: configured log4net using default OpenSim.exe.config
+2024-05-15 11:27:24,676 INFO  [OPENSIM MAIN]: System Locale is en-US
+2024-05-15 11:27:24,687 INFO  [UTIL] TimeStamp clock with period of 0.0001ms
+2024-05-15 11:27:24,687 INFO  [OPENSIM MAIN]: Runtime gave us 16 min worker threads and 16 min IOCP threads
+2024-05-15 11:27:24,687 INFO  [OPENSIM MAIN]: Runtime gave us 32767 max worker threads and 1000 max IOCP threads
+2024-05-15 11:27:24,687 INFO  [OPENSIM MAIN]: Limiting max worker threads to 1000
+2024-05-15 11:27:24,688 INFO  [OPENSIM MAIN]: Threadpool set to 1000 max worker threads and 1000 max IOCP threads
+2024-05-15 11:27:24,688 INFO  [OPENSIM MAIN]: Environment is supported by OpenSimulator.
+2024-05-15 11:27:24,697 INFO  Default culture changed to Inglês (Estados Unidos)
+2024-05-15 11:27:24,709 INFO  [CONFIG]: Reading configuration settings
+2024-05-15 11:27:24,710 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\OpenSimDefaults.ini
+2024-05-15 11:27:24,729 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\OpenSim.ini
+2024-05-15 11:27:24,734 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\config-include\osslDefaultEnable.ini
+2024-05-15 11:27:24,745 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\config-include\Standalone.ini
+2024-05-15 11:27:24,752 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\config-include\osslEnable.ini
+2024-05-15 11:27:24,760 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\config-include\StandaloneCommon.ini
+2024-05-15 11:27:24,769 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\config-include\FlotsamCache.ini
+2024-05-15 11:27:24,776 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\config-include\storage\SQLiteStandalone.ini
+2024-05-15 11:27:24,783 INFO  [CONFIG]: Loading environment variables for Config
+2024-05-15 11:27:24,829 INFO  [OPENSIM MAIN]: Using async_call_method SmartThreadPool
+2024-05-15 11:27:24,829 INFO  [OPENSIM MAIN] Running GC in workstation mode
+2024-05-15 11:27:24,830 INFO  [STARTUP]: Beginning startup processing
+2024-05-15 11:27:24,831 INFO  [STARTUP]: version: OpenSim 0.9.2.2 Yeti Release2a28e85
+
+2024-05-15 11:27:24,831 INFO  [STARTUP]: Operating system version: Microsoft Windows NT 6.2.9200.0, .NET platform Win32NT, 64-bit
+
+2024-05-15 11:27:24,831 INFO  [STARTUP]: Processor Architecture: AMD64(le)
+2024-05-15 11:27:25,060 INFO  ====================================================================
+2024-05-15 11:27:25,060 INFO  ========================= STARTING OPENSIM =========================
+2024-05-15 11:27:25,060 INFO  ====================================================================
+2024-05-15 11:27:25,064 INFO  [LOCAL CONSOLE]: Persistent command line history is Enabled, up to 100 lines from file C:\Users\UFRR\MDV\bin\OpenSimConsoleHistory.txt without timestamps
+2024-05-15 11:27:25,068 INFO  [LOCAL CONSOLE]: Read 3 lines of command line history from file C:\Users\UFRR\MDV\bin\OpenSimConsoleHistory.txt
+2024-05-15 11:27:25,074 INFO  [SERVER BASE]: Logging started to file C:\Users\UFRR\MDV\bin\OpenSim.log
+2024-05-15 11:27:25,077 INFO  [SERVER BASE]: Stats Logging started to file C:\Users\UFRR\MDV\bin\OpenSimStats.log
+2024-05-15 11:27:25,078 INFO  [SERVER BASE]: Starting in C:\Users\UFRR\MDV\bin
+2024-05-15 11:27:25,078 INFO  [SERVER BASE]: OpenSimulator version: OpenSim 0.9.2.2 Yeti Release2a28e85
+2024-05-15 11:27:25,078 INFO  [SERVER BASE]: Operating system version: Microsoft Windows NT 6.2.9200.0, .NET platform Win32NT, 64-bit
+2024-05-15 11:27:25,679 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:25,699 INFO  [SQLITE REGION DB]: Sqlite - connecting: URI=file:OpenSim.db,version=3,UseUTF16Encoding=True
+2024-05-15 11:27:25,746 DEBUG [MIGRATIONS]: RegionStore data tables already up to date at revision 40
+2024-05-15 11:27:26,186 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:26,187 INFO  [ESTATE DB]: Sqlite - connecting: URI=file:OpenSim.db,version=3,UseUTF16Encoding=True
+2024-05-15 11:27:26,188 DEBUG [MIGRATIONS]: EstateStore data tables already up to date at revision 12
+2024-05-15 11:27:26,198 INFO  [BASE HTTP SERVER]: Starting HTTP server on port 9000
+2024-05-15 11:27:26,207 DEBUG [WATCHDOG]: Started tracking thread PollServiceWatcherThread, ID 10
+2024-05-15 11:27:26,216 INFO  [PLUGINS]: Initializing addin manager
+2024-05-15 11:27:33,158 INFO  [PLUGINS]: Plugin Loaded: OpenSim
+2024-05-15 11:27:33,161 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.Framework
+2024-05-15 11:27:33,161 INFO  [PLUGINS]: Plugin Loaded: Robust
+2024-05-15 11:27:33,165 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Data
+2024-05-15 11:27:33,174 INFO  [PLUGINS]: Loading extension point /OpenSim/Startup
+2024-05-15 11:27:33,190 INFO  [PLUGINS]: Trying plugin /OpenSim/Startup/LoadRegions
+2024-05-15 11:27:33,190 INFO  [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.RegionModulesController
+2024-05-15 11:27:33,192 INFO  [PLUGINS]: Trying plugin /OpenSim/Startup/LoadRegions
+2024-05-15 11:27:33,193 INFO  [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.RemoteController
+2024-05-15 11:27:33,194 INFO  [PLUGINS]: Trying plugin /OpenSim/Startup/LoadRegions
+2024-05-15 11:27:33,194 INFO  [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.LoadRegions
+2024-05-15 11:27:33,198 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.BasicPhysics
+2024-05-15 11:27:33,201 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.OptionalModules
+2024-05-15 11:27:33,207 INFO  [PLUGINS]: Plugin Loaded: OpenSim.OfflineIM
+2024-05-15 11:27:33,208 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.Meshing
+2024-05-15 11:27:33,209 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Groups
+2024-05-15 11:27:33,210 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.ScriptEngine.XEngine
+2024-05-15 11:27:33,212 INFO  [PLUGINS]: Plugin Loaded: LindenCaps
+2024-05-15 11:27:33,214 INFO  [PLUGINS]: Plugin Loaded: YEngine
+2024-05-15 11:27:33,215 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.BulletS
+2024-05-15 11:27:33,217 INFO  [PLUGINS]: Plugin Loaded: LindenUDP
+2024-05-15 11:27:33,218 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.POS
+2024-05-15 11:27:33,219 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.ubOde
+2024-05-15 11:27:33,220 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.ODE
+2024-05-15 11:27:33,221 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.CoreModules
+2024-05-15 11:27:33,231 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.ubOdeMeshing
+2024-05-15 11:27:33,232 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.BasicPhysics, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 11:27:33,233 INFO  [REGIONMODULES]: From plugin OpenSim.Region.OptionalModules, (version 0.9.2.2), loaded 39 modules, 20 shared, 19 non-shared 0 unknown
+2024-05-15 11:27:33,233 INFO  [REGIONMODULES]: From plugin OpenSim.OfflineIM, (version 0.9.2.2), loaded 1 modules, 1 shared, 0 non-shared 0 unknown
+2024-05-15 11:27:33,234 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.Meshing, (version 0.9.2.2), loaded 2 modules, 0 shared, 2 non-shared 0 unknown
+2024-05-15 11:27:33,234 INFO  [REGIONMODULES]: From plugin OpenSim.Groups, (version 0.9.2.2), loaded 5 modules, 5 shared, 0 non-shared 0 unknown
+2024-05-15 11:27:33,234 INFO  [REGIONMODULES]: From plugin OpenSim.Region.ScriptEngine.XEngine, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 11:27:33,234 INFO  [REGIONMODULES]: From plugin LindenCaps, (version 0.9.2.2), loaded 17 modules, 5 shared, 12 non-shared 0 unknown
+2024-05-15 11:27:33,234 INFO  [REGIONMODULES]: From plugin YEngine, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 11:27:33,235 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.BulletS, (version 0.9.2.2), loaded 2 modules, 0 shared, 2 non-shared 0 unknown
+2024-05-15 11:27:33,235 INFO  [REGIONMODULES]: From plugin LindenUDP, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 11:27:33,235 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.POS, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 11:27:33,235 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.ubOde, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 11:27:33,235 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.ODE, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 11:27:33,236 INFO  [REGIONMODULES]: From plugin OpenSim.Region.CoreModules, (version 0.9.2.2), loaded 115 modules, 74 shared, 41 non-shared 0 unknown
+2024-05-15 11:27:33,236 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.ubOdeMeshing, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 11:27:33,265 INFO  [Serialiser] Enabled, using save dir "exports"
+2024-05-15 11:27:33,271 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,274 DEBUG [MIGRATIONS]: UserAccount data tables already up to date at revision 3
+2024-05-15 11:27:33,277 DEBUG [GRID SERVICE]: Starting...
+2024-05-15 11:27:33,282 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,282 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,284 DEBUG [MIGRATIONS]: AuthStore data tables already up to date at revision 2
+2024-05-15 11:27:33,285 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,287 DEBUG [MIGRATIONS]: GridUserStore data tables already up to date at revision 1
+2024-05-15 11:27:33,287 DEBUG [GRID USER SERVICE]: Starting user grid service
+2024-05-15 11:27:33,289 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,289 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,290 DEBUG [MIGRATIONS]: XInventoryStore data tables already up to date at revision 2
+2024-05-15 11:27:33,290 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,292 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,293 DEBUG [MIGRATIONS]: Avatar data tables already up to date at revision 1
+2024-05-15 11:27:33,294 DEBUG [AVATAR SERVICE]: Starting avatar service
+2024-05-15 11:27:33,343 INFO  [LOCAL USER ACCOUNT SERVICE CONNECTOR]: Local user connector enabled
+2024-05-15 11:27:33,344 INFO  [LOCAL SIMULATION CONNECTOR]: Local simulation enabled.
+2024-05-15 11:27:33,346 DEBUG [LOCAL PRESENCE CONNECTOR]: Service dll = OpenSim.Services.PresenceService.dll:PresenceService
+2024-05-15 11:27:33,348 DEBUG [PRESENCE SERVICE]: Starting presence service
+2024-05-15 11:27:33,348 INFO  [LOCAL PRESENCE CONNECTOR]: Local presence connector enabled
+2024-05-15 11:27:33,349 INFO  [NEIGHBOUR CONNECTOR]: Neighbour out connector enabled
+2024-05-15 11:27:33,356 DEBUG [MAP IMAGE SERVICE]: Starting MapImage service
+2024-05-15 11:27:33,370 INFO  [MAP IMAGE SERVICE MODULE]: enabled with no refresh and service object OpenSim.Services.MapImageService.dll:MapImageService
+2024-05-15 11:27:33,371 INFO  [LAND CONNECTOR]: Local land connector enabled
+2024-05-15 11:27:33,373 DEBUG [LOCAL INVENTORY SERVICES CONNECTOR]: Service dll = OpenSim.Services.InventoryService.dll:XInventoryService
+2024-05-15 11:27:33,374 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,374 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,374 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,374 INFO  [LOCAL INVENTORY SERVICES CONNECTOR]: Local inventory connector enabled
+2024-05-15 11:27:33,376 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,376 DEBUG [GRID USER SERVICE]: Starting user grid service
+2024-05-15 11:27:33,377 DEBUG [ACTIVITY DETECTOR]: starting 
+2024-05-15 11:27:33,377 INFO  [LOCAL GRID USER SERVICE CONNECTOR]: Local grid user connector enabled
+2024-05-15 11:27:33,379 DEBUG [GRID SERVICE]: Starting...
+2024-05-15 11:27:33,380 INFO  [REGION GRID CONNECTOR]: enabled in Standalone mode
+2024-05-15 11:27:33,381 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,381 DEBUG [AVATAR SERVICE]: Starting avatar service
+2024-05-15 11:27:33,381 INFO  [AVATAR CONNECTOR]: Local avatar connector enabled
+2024-05-15 11:27:33,383 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,383 INFO  [AUTH CONNECTOR]: Local Authentication connector enabled
+2024-05-15 11:27:33,387 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:33,389 DEBUG [MIGRATIONS]: AssetStore data tables already up to date at revision 6
+2024-05-15 11:27:33,390 DEBUG [ASSET SERVICE]: Loading default asset set from assets/AssetSets.xml
+2024-05-15 11:27:35,165 DEBUG [ASSET SERVICE]: Local asset service enabled
+2024-05-15 11:27:35,165 INFO  [REGIONASSETCONNECTOR]: enabled
+2024-05-15 11:27:35,180 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,180 DEBUG [MIGRATIONS]: AgentPrefs data tables already up to date at revision 2
+2024-05-15 11:27:35,180 DEBUG [AGENT PREFERENCES SERVICE]: Starting agent preferences service
+2024-05-15 11:27:35,180 INFO  [AGENT PREFERENCES CONNECTOR]: Local agent preferences connector enabled
+2024-05-15 11:27:35,180 INFO  [LOCAL USERPROFILES SERVICE CONNECTOR]: Local user profiles connector enabled
+2024-05-15 11:27:35,180 INFO  [MAP SERVICE IN CONNECTOR]: MapImage Service In Connector enabled
+2024-05-15 11:27:35,180 INFO  [LLLOGIN IN CONNECTOR]: LLLoginerviceInConnector enabled
+2024-05-15 11:27:35,180 INFO  [GRIDINFO IN CONNECTOR]: GridInfo Service In Connector enabled
+2024-05-15 11:27:35,180 DEBUG [VECTORRENDERMODULE]: using font "Arial" for text rendering.
+2024-05-15 11:27:35,180 DEBUG [OUTBOUND URL FILTER]: OutboundDisallowForUserScripts for Script dynamic texture image module is [0.0.0.0/8|10.0.0.0/8|100.64.0.0/10|127.0.0.0/8|169.254.0.0/16|172.16.0.0/12|192.0.0.0/24|192.0.2.0/24|192.88.99.0/24|192.168.0.0/16|198.18.0.0/15|198.51.100.0/24|203.0.113.0/24|224.0.0.0/4|240.0.0.0/4|255.255.255.255/32]
+2024-05-15 11:27:35,180 DEBUG [OUTBOUND URL FILTER]: OutboundDisallowForUserScriptsExcept for Script dynamic texture image module is []
+2024-05-15 11:27:35,202 DEBUG [USER MANAGEMENT MODULE]: BasicUserManagementModule is enabled
+2024-05-15 11:27:35,212 DEBUG [BASIC SEARCH MODULE]: BasicSearchModule is enabled
+2024-05-15 11:27:35,212 DEBUG [LIBRARY MODULE]: Library service dll is OpenSim.Services.InventoryService.dll:LibraryService
+2024-05-15 11:27:35,212 DEBUG [LIBRARY]: Starting library service...
+2024-05-15 11:27:35,212 INFO  [LIBRARY INVENTORY]: Loading library control file ./inventory/Libraries.xml
+2024-05-15 11:27:35,290 DEBUG [LURE MODULE]: LureModule enabled
+2024-05-15 11:27:35,302 DEBUG [HG MESSAGE TRANSFER]: Disabled by configuration
+2024-05-15 11:27:35,302 DEBUG [MESSAGE TRANSFER]: Module enabled
+2024-05-15 11:27:35,306 INFO  [GROUPS]: Groups disabled in configuration
+2024-05-15 11:27:35,306 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,306 DEBUG [MIGRATIONS]: FriendsStore data tables already up to date at revision 2
+2024-05-15 11:27:35,306 DEBUG [FRIENDS MODULE]: FriendsModule enabled.
+2024-05-15 11:27:35,306 INFO  [FLOTSAM ASSET CACHE]: FlotsamAssetCache enabled
+2024-05-15 11:27:35,306 INFO  [FLOTSAM ASSET CACHE]: Cache Directory C:\Users\UFRR\MDV\bin\assetcache
+2024-05-15 11:27:35,322 INFO  [LLLOGIN IN CONNECTOR]: Starting...
+2024-05-15 11:27:35,322 DEBUG [RADMIN]: Creating default avatar entries
+2024-05-15 11:27:35,322 DEBUG [RADMIN]: No default avatar information available
+2024-05-15 11:27:35,322 INFO  [RADMIN]: Default avatars not loaded
+2024-05-15 11:27:35,322 INFO  [LOAD REGIONS PLUGIN]: Loading region configurations from filesystem
+2024-05-15 11:27:35,322 INFO  [REGION LOADER FILE SYSTEM]: Loading config files from .\Regions
+2024-05-15 11:27:35,322 INFO  [REGION LOADER FILE SYSTEM]: Loading config file .\Regions\Regions.ini
+2024-05-15 11:27:35,337 INFO  [REGIONINFO]: Resolving SYSTEMIP to 192.168.68.1 for external hostname of region meta
+2024-05-15 11:27:35,353 INFO  [REGION LOADER FILE SYSTEM]: Loaded config for region meta
+2024-05-15 11:27:35,353 INFO  [LOAD REGIONS PLUGIN]: Loading specific shared modules...
+2024-05-15 11:27:35,353 INFO  [LOAD REGIONS PLUGIN]: Done.
+2024-05-15 11:27:35,353 DEBUG [LOAD REGIONS PLUGIN]: Creating Region: meta (ThreadID: 1)
+2024-05-15 11:27:35,386 INFO  [SCENE]: Default script engine YEngine
+2024-05-15 11:27:35,386 INFO  [SCENE]: Region meta, WORLD MAP refresh time set to 0 seconds
+2024-05-15 11:27:35,386 DEBUG [SCENE]: Using the BestAvatarResponsiveness prioritization scheme
+2024-05-15 11:27:35,386 INFO  [TERRAIN DATA] VD2Gzip 63196 bytes input
+2024-05-15 11:27:35,403 DEBUG [TERRAIN DATA] V2DGzip. Heightmap size=<256,256>. Region size=<256,256>
+2024-05-15 11:27:35,404 DEBUG [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=<256,256>
+2024-05-15 11:27:35,405 INFO  [TERRAIN DATA] VD2Gzip 63196 bytes input
+2024-05-15 11:27:35,408 DEBUG [TERRAIN DATA] V2DGzip. Heightmap size=<256,256>. Region size=<256,256>
+2024-05-15 11:27:35,408 DEBUG [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=<256,256>
+2024-05-15 11:27:35,408 DEBUG [SQLITE REGION DB]: Loaded terrain revision r23
+2024-05-15 11:27:35,409 INFO  [REGIONMODULES]: Loading Region's modules
+2024-05-15 11:27:35,418 INFO  [BASE PRESENCE SERVICE CONNECTOR]: Enabled for region meta
+2024-05-15 11:27:35,434 DEBUG [MESSAGE TRANSFER]: Message transfer module active
+2024-05-15 11:27:35,434 INFO  [CHAT]: Initialized for meta w:10 s:20 S:100
+2024-05-15 11:27:35,449 DEBUG [TREES]: Initialised tree populator module
+2024-05-15 11:27:35,449 DEBUG [Materials]: Initialized
+2024-05-15 11:27:35,480 INFO  [YEngine]: config enabled=True
+2024-05-15 11:27:35,480 INFO  [EXTENDED PHYSICS] module is not enabled
+2024-05-15 11:27:35,480 ERROR [ubODE] Opensim.ini meshing option must be set to "ubODEMeshmerizer"
+2024-05-15 11:27:35,480 DEBUG [UTIL]: Loading native Windows library at lib64\ubode.dll
+2024-05-15 11:27:35,503 INFO  [ubODE] ode library configuration: ODE ODE_EXT_no_debug ODE_single_precision ODE_OPENSIM OS0.13.4
+2024-05-15 11:27:35,512 INFO  [WIND] Enabled with an update rate of 150 frames.
+2024-05-15 11:27:35,522 DEBUG [PERMISSIONS]: allowed_script_creators All
+2024-05-15 11:27:35,523 DEBUG [PERMISSIONS]: allowed_script_editors All
+2024-05-15 11:27:35,523 DEBUG [PERMISSIONS]: Enabling all region service permission checks
+2024-05-15 11:27:35,524 INFO  [EnvironmentModule]: Module is enabled.
+2024-05-15 11:27:35,526 INFO  [AUTHORIZATION CONNECTOR]: Initialise
+2024-05-15 11:27:35,526 INFO  [AUTHORIZATION CONNECTOR]: Local authorization connector enabled
+2024-05-15 11:27:35,531 DEBUG [OUTBOUND URL FILTER]: OutboundDisallowForUserScripts for Script HTTP request module is [0.0.0.0/8|10.0.0.0/8|100.64.0.0/10|127.0.0.0/8|169.254.0.0/16|172.16.0.0/12|192.0.0.0/24|192.0.2.0/24|192.88.99.0/24|192.168.0.0/16|198.18.0.0/15|198.51.100.0/24|203.0.113.0/24|224.0.0.0/4|240.0.0.0/4|255.255.255.255/32]
+2024-05-15 11:27:35,531 DEBUG [OUTBOUND URL FILTER]: OutboundDisallowForUserScriptsExcept for Script HTTP request module is []
+2024-05-15 11:27:35,534 INFO  [INVENTORY ACCESS MODULE]: BasicInventoryAccessModule enabled.
+2024-05-15 11:27:35,537 DEBUG [ENTITY TRANSFER MODULE]: BasicEntityTransferModule enabled.
+2024-05-15 11:27:35,555 DEBUG [RegionReady]: Enabled for region meta
+2024-05-15 11:27:35,572 INFO  [YEngine]: Enabled for region meta
+2024-05-15 11:27:35,572 INFO  [YEngine]: 2.000MB stacksize, 1.000MB heapsize
+2024-05-15 11:27:35,572 DEBUG [YEngine]: starting thread Yengine sleep (meta)
+2024-05-15 11:27:35,572 DEBUG [YEngine]: starting thread YScript0 (meta)
+2024-05-15 11:27:35,572 DEBUG [YEngine]: starting thread YScript1 (meta)
+2024-05-15 11:27:35,720 INFO  [LLUDPSERVER]: Average Environment.TickCount resolution: 15.6ms
+2024-05-15 11:27:35,720 INFO  [LLUDPSERVER]: Average Util.GetTimeStampMS resolution: 0.000102ms
+2024-05-15 11:27:35,738 INFO  [WIND] Found Plugin: ConfigurableWind
+2024-05-15 11:27:35,738 INFO  [WIND] Found Plugin: SimpleRandomWind
+2024-05-15 11:27:35,738 INFO  [WIND] SimpleRandomWind plugin found, initializing.
+2024-05-15 11:27:35,738 INFO  [WORLD MAP]: JPEG Map location: http://192.168.68.1:9000/index.php?method=regionImagecd5fe6c9614a4645bcb3e17ddff4486b
+2024-05-15 11:27:35,738 DEBUG [WATCHDOG]: Started tracking thread MapBlocks (meta), ID 15
+2024-05-15 11:27:35,758 INFO  L ... GenericSystemDrawing
+2024-05-15 11:27:35,758 INFO  L ... JPEG
+2024-05-15 11:27:35,758 INFO  L ... LLRAW
+2024-05-15 11:27:35,758 INFO  L ... RAW32
+2024-05-15 11:27:35,758 INFO  E ... ChannelDigger
+2024-05-15 11:27:35,758 INFO  E ... DefaultTerrainGenerator
+2024-05-15 11:27:35,818 INFO  [LOCAL USER ACCOUNT SERVICE CONNECTOR]: Enabled local user accounts for region meta
+2024-05-15 11:27:35,819 INFO  [NEIGHBOUR CONNECTOR]: Enabled out neighbours for region meta
+2024-05-15 11:27:35,819 INFO  [LOCAL GRID USER SERVICE CONNECTOR]: Enabled local grid user for region meta
+2024-05-15 11:27:35,820 INFO  [REGIONASSETCONNECTOR]: active with cache for region meta
+2024-05-15 11:27:35,821 DEBUG [LLLOGIN IN CONNECTOR]: Starting...
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [GRID SERVICE]: Starting...
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [GRID USER SERVICE]: Starting user grid service
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [AVATAR SERVICE]: Starting avatar service
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [GRID USER SERVICE]: Starting user grid service
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [AUTH SERVICE]: Started with User Account access
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [GRID SERVICE]: Starting...
+2024-05-15 11:27:35,821 DEBUG [PRESENCE SERVICE]: Starting presence service
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [AVATAR SERVICE]: Starting avatar service
+2024-05-15 11:27:35,821 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 11:27:35,821 DEBUG [LLOGIN SERVICE]: Using LibraryService given as argument
+2024-05-15 11:27:35,833 DEBUG [LLOGIN SERVICE]: Starting...
+2024-05-15 11:27:35,834 INFO  [GridInfo]: Starting...
+2024-05-15 11:27:35,837 DEBUG [GRID INFO SERVICE]: Grid info service initialized with 5 keys
+2024-05-15 11:27:35,838 WARN  [BASIC SEARCH MODULE]: Could not get IGroupsModule
+2024-05-15 11:27:35,911 INFO  [YEngine] Hooking up to server events
+2024-05-15 11:27:35,918 INFO  [LLUDPSERVER]: Starting inbound packet processing for the LLUDP server
+2024-05-15 11:27:35,919 DEBUG [UDPBASE]: Starting inbound UDP loop
+2024-05-15 11:27:35,922 DEBUG [WATCHDOG]: Started tracking thread Incoming Packets (meta), ID 17
+2024-05-15 11:27:35,924 INFO  [LLUDPSERVER]: Starting outbound packet processing for the LLUDP server
+2024-05-15 11:27:35,925 DEBUG [UDPBASE]: Starting outbound UDP loop
+2024-05-15 11:27:35,925 DEBUG [WATCHDOG]: Started tracking thread Outgoing Packets (meta), ID 18
+2024-05-15 11:27:35,977 DEBUG [AuthorizationService]: Region meta access restrictions: None
+2024-05-15 11:27:35,977 INFO  [AUTHORIZATION CONNECTOR]: Enabled local authorization for region meta
+2024-05-15 11:27:35,978 INFO  [MODULE COMMANDS]: Script engine found, module active
+2024-05-15 11:27:35,984 INFO  [SCENE]: Secure permissions loading enabled, modules loaded: DefaultPermissionsModule
+2024-05-15 11:27:35,985 INFO  [SCENE]: Loading land objects from storage
+2024-05-15 11:27:36,065 INFO  [SCENE]: Loading objects from datastore
+2024-05-15 11:27:36,467 INFO  [SCENE]: Loaded 345 objects from the datastore
+2024-05-15 11:27:36,638 DEBUG [USER MANAGEMENT MODULE]: Caching creators' data from meta (345 objects)...
+2024-05-15 11:27:36,654 DEBUG [WORLD MAP]: Generating map image for meta
+2024-05-15 11:27:36,654 DEBUG [TEXTURED MAPTILE RENDERER] Generating Maptile Step 1: Terrain
+2024-05-15 11:27:36,654 DEBUG [TEXTURED MAPTILE RENDERER] Fetched texture 00000000-0000-2222-3333-100000001013, found: True
+2024-05-15 11:27:36,983 DEBUG [TEXTURED MAPTILE RENDERER]: Generating Maptile Step 1: Done in 328 ms
+2024-05-15 11:27:36,983 DEBUG [MAPTILE]: Generating Maptile Step 2: Object Volume Profile
+2024-05-15 11:27:37,046 DEBUG [MAPTILE]: Generating Maptile Step 2: Done in 63 ms
+2024-05-15 11:27:37,077 DEBUG [WORLD MAP]: Storing map image 9b6b1c4f-10bf-4023-9df4-ad008d1a400e for meta
+2024-05-15 11:27:37,077 DEBUG [WORLD MAP]: Region meta has no parcels for sale, not generating overlay
+2024-05-15 11:27:37,109 DEBUG [MAP IMAGE SERVICE MODULE]: Upload maptile for meta
+2024-05-15 11:27:37,109 DEBUG [GRID SERVICE]: Region meta (cd5fe6c9-614a-4645-bcb3-e17ddff4486b, 256x256) registered at 1000,1000 with flags RegionOnline
+2024-05-15 11:27:37,109 INFO  [SCENE]: Initializing script instances in meta
+2024-05-15 11:27:37,156 DEBUG [YEngine]: adding api LSL
+2024-05-15 11:27:37,156 DEBUG [YEngine]: adding api LS
+2024-05-15 11:27:37,156 DEBUG [YEngine]: adding api MOD
+2024-05-15 11:27:37,156 DEBUG [YEngine]: adding api OSSL
+2024-05-15 11:27:37,207 DEBUG [WATCHDOG]: Started tracking thread AsyncLSLCmdHandlerThread, ID 22
+2024-05-15 11:27:41,743 INFO  [SCENE]: Initialized 581 script instances in meta
+2024-05-15 11:27:41,822 INFO  [ubOde] start processing pending actor operations
+2024-05-15 11:27:44,636 INFO  [ubOde] finished 28151 operations in 2813ms
+2024-05-15 11:27:44,638 INFO  [ubOde] 9144 prim actors loaded
+2024-05-15 11:27:44,638 DEBUG [YEngine]: StartProcessing entry
+2024-05-15 11:27:44,639 DEBUG [YEngine]: StartProcessing return
+2024-05-15 11:27:44,640 DEBUG [RegionReady]: Script compile queue empty!
+2024-05-15 11:27:44,643 DEBUG [RegionReady]: Region "meta" is ready: "server_startup,0," on channel -800
+2024-05-15 11:31:08,669 INFO  [LLOGIN SERVICE]: Login request for meta verso at last using viewer 1.8.9.8338, channel Singularity Release 64, IP 127.0.0.1, Mac 96ea8f8dad3fc63a6611f4b37d64e090, Id0 aa93fb7ba9979fc6bf3a8df553e06e52 
+2024-05-15 11:31:08,749 DEBUG [AUTH SERVICE]: Authenticating for 5979929a-11f6-4470-8f98-c336da93e9b9, user account service present: True
+2024-05-15 11:31:08,779 DEBUG [PRESENCE SERVICE]: LoginAgent: session b7d35f30-daa5-4df1-840b-ecc85a2f566e, user 5979929a-11f6-4470-8f98-c336da93e9b9, region 00000000-0000-0000-0000-000000000000, secure session 397bbcff-f6f6-4a49-81a2-675e8d84fcf8
+2024-05-15 11:31:08,779 DEBUG [LLOGIN SERVICE]: Finding destination matching start location last for meta verso
+2024-05-15 11:31:08,790 DEBUG [LLOGIN SERVICE]: Found destination meta, endpoint 192.168.68.1:9000 for meta verso
+2024-05-15 11:31:08,829 DEBUG [SCENE]: Region meta told of incoming root agent meta verso 5979929a-11f6-4470-8f98-c336da93e9b9 (circuit code 1857748950, IP 127.0.0.1, viewer Singularity Release 64 1.8.9.8338, teleportflags (ViaLogin), position <49.64436, 178.3166, 24.14701>. 
+2024-05-15 11:31:08,839 INFO  [SCENE meta]: authorized child agent meta verso 5979929a-11f6-4470-8f98-c336da93e9b9 (circuit code 1857748950)
+2024-05-15 11:31:08,839 DEBUG [CreateCaps]: new caps agent 5979929a-11f6-4470-8f98-c336da93e9b9, circuit 1857748950, path b6be3996-1c55-4931-b34b-3bab65555904
+2024-05-15 11:31:08,869 DEBUG [GRID USER SERVICE]: User 5979929a-11f6-4470-8f98-c336da93e9b9 is online
+2024-05-15 11:31:08,889 DEBUG [LOGIN RESPONSE] LLLoginResponse create. sizeX=256, sizeY=256
+2024-05-15 11:31:08,889 DEBUG [LLOGIN SERVICE]: All clear. Sending login response to meta verso
+2024-05-15 11:31:08,889 DEBUG [LOGIN RESPONSE] returning sizeX=256, sizeY=256
+2024-05-15 11:31:09,369 DEBUG [CAPS]: Received SEED caps request in meta for agent 5979929a-11f6-4470-8f98-c336da93e9b9
+2024-05-15 11:31:09,369 DEBUG [SCENE]: Incoming client meta verso in region meta via regular login. Client IP verification not performed.
+2024-05-15 11:31:11,596 DEBUG [LLUDPSERVER]: Handling UseCircuitCode request for circuit 1857748950 to meta from IP 192.168.68.1:62608
+2024-05-15 11:31:11,629 DEBUG [SCENE]: Adding new child scene presence meta verso 5979929a-11f6-4470-8f98-c336da93e9b9 to scene meta at pos <49.64436, 178.3166, 24.14701>, tpflags: ViaLogin
+2024-05-15 11:31:11,707 DEBUG [LLUDPSERVER]: Client created
+2024-05-15 11:31:11,709 DEBUG [LLUDPSERVER]: processing UseCircuitCode pending queue, 3 entries
+2024-05-15 11:31:11,719 INFO  [SCENE PRESENCE]: Complete movement of meta verso into meta <49.64436, 178.3166, 24.14701>
+2024-05-15 11:31:11,729 DEBUG [PRESENCE SERVICE]: ReportAgent: session b7d35f30-daa5-4df1-840b-ecc85a2f566e, user 5979929a-11f6-4470-8f98-c336da93e9b9, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b. Previously: region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-15 11:31:11,803 DEBUG [CompleteMovement] end: 93ms
+2024-05-15 11:31:12,209 DEBUG [SCENE PRESENCE(meta)]: SendInitialData for 5979929a-11f6-4470-8f98-c336da93e9b9
+2024-05-15 11:31:12,209 DEBUG [SCENE PRESENCE(meta)]: SendInitialData at parcel 3d7d0e72-7209-4ebd-af93-1d244fff5f68
+2024-05-15 11:31:15,769 WARN  [Materials]: request for unknown material ID: 63cfb53f-f24c-dd8b-c13f-159ef857b6cd
+2024-05-15 11:31:17,364 WARN  [AVFACTORY]: Can't find inventory item db5a4e5f-9da3-44c8-992d-1181c5795498 for Skin, setting to default
+2024-05-15 11:31:17,364 WARN  [AVFACTORY]: Can't find inventory item 6969c7cc-f72f-4a76-a19b-c293cce8ce4f for Hair, setting to default
+2024-05-15 11:31:17,364 WARN  [AVFACTORY]: Can't find inventory item 7999702b-b291-48f9-8903-c91dfb828408 for Eyes, setting to default
+2024-05-15 11:31:17,369 WARN  [AVFACTORY]: Can't find inventory item 566cb59e-ef60-41d7-bfa6-e0f293fbea40 for Shirt, setting to default
+2024-05-15 11:31:23,479 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 11:31:23,479 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 11:31:23,479 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 11:31:23,479 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 11:31:23,479 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 11:31:23,487 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 11:31:24,469 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 11:31:24,469 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 11:31:24,469 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 11:31:24,469 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 11:31:25,484 WARN  [Materials]: request for unknown material ID: 405d20ce-0bfe-e344-8661-624961658a1a
+2024-05-15 11:33:54,115 INFO  [CLIENT]: Got a logout request for meta verso in meta
+2024-05-15 11:33:54,119 DEBUG [CLIENT]: Close has been called for meta verso attached to scene meta
+2024-05-15 11:33:54,121 DEBUG [GRID USER SERVICE]: User 5979929a-11f6-4470-8f98-c336da93e9b9 is offline
+2024-05-15 11:33:54,137 DEBUG [PRESENCE SERVICE]: LogoutAgent: session b7d35f30-daa5-4df1-840b-ecc85a2f566e, user 5979929a-11f6-4470-8f98-c336da93e9b9, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-15 11:33:54,140 DEBUG [JobEngine] Stopping AsyncInUDP-5979929a-11f6-4470-8f98-c336da93e9b9
+2024-05-15 11:33:54,142 DEBUG [SCENE]: Removing root agent meta verso 5979929a-11f6-4470-8f98-c336da93e9b9 from meta
+2024-05-15 11:33:54,149 DEBUG [Scene] The avatar has left the building
+2024-05-15 11:33:54,152 DEBUG [CAPS]: Remove caps for agent 5979929a-11f6-4470-8f98-c336da93e9b9 in region meta
+2024-05-15 11:34:16,214 INFO  [LLOGIN SERVICE]: Login request for marcelo firmino at last using viewer 1.8.9.8338, channel Singularity Release 64, IP 127.0.0.1, Mac 96ea8f8dad3fc63a6611f4b37d64e090, Id0 aa93fb7ba9979fc6bf3a8df553e06e52 
+2024-05-15 11:34:16,214 DEBUG [AUTH SERVICE]: Authenticating for 8a137126-9202-4244-b3e9-a1ec7d39f59b, user account service present: True
+2024-05-15 11:34:16,214 INFO  [LLOGIN SERVICE]: Login failed for marcelo firmino, reason: authentication failed
+2024-05-15 11:34:24,139 INFO  [LLOGIN SERVICE]: Login request for marcelo firmino at last using viewer 1.8.9.8338, channel Singularity Release 64, IP 127.0.0.1, Mac 96ea8f8dad3fc63a6611f4b37d64e090, Id0 aa93fb7ba9979fc6bf3a8df553e06e52 
+2024-05-15 11:34:24,139 DEBUG [AUTH SERVICE]: Authenticating for 8a137126-9202-4244-b3e9-a1ec7d39f59b, user account service present: True
+2024-05-15 11:34:24,155 DEBUG [PRESENCE SERVICE]: LoginAgent: session 122d3f17-5dfd-422e-960c-f3a447634617, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region 00000000-0000-0000-0000-000000000000, secure session 8198ffc0-f936-4463-b006-196a1e3cd880
+2024-05-15 11:34:24,156 DEBUG [LLOGIN SERVICE]: Finding destination matching start location last for marcelo firmino
+2024-05-15 11:34:24,156 DEBUG [LLOGIN SERVICE]: Found destination meta, endpoint 192.168.68.1:9000 for marcelo firmino
+2024-05-15 11:34:24,157 DEBUG [SCENE]: Region meta told of incoming root agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b (circuit code 1858116759, IP 127.0.0.1, viewer Singularity Release 64 1.8.9.8338, teleportflags (ViaLogin), position <87.62722, 161.5497, 75.39697>. 
+2024-05-15 11:34:24,158 INFO  [SCENE meta]: authorized child agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b (circuit code 1858116759)
+2024-05-15 11:34:24,158 DEBUG [CreateCaps]: new caps agent 8a137126-9202-4244-b3e9-a1ec7d39f59b, circuit 1858116759, path 8648708d-3e19-4e89-8e5c-85e56ec3519a
+2024-05-15 11:34:24,158 DEBUG [GRID USER SERVICE]: User 8a137126-9202-4244-b3e9-a1ec7d39f59b is online
+2024-05-15 11:34:24,158 DEBUG [LOGIN RESPONSE] LLLoginResponse create. sizeX=256, sizeY=256
+2024-05-15 11:34:24,163 DEBUG [LLOGIN SERVICE]: All clear. Sending login response to marcelo firmino
+2024-05-15 11:34:24,163 DEBUG [LOGIN RESPONSE] returning sizeX=256, sizeY=256
+2024-05-15 11:34:24,400 DEBUG [CAPS]: Received SEED caps request in meta for agent 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 11:34:24,400 DEBUG [SCENE]: Incoming client marcelo firmino in region meta via regular login. Client IP verification not performed.
+2024-05-15 11:34:24,605 DEBUG [LLUDPSERVER]: Handling UseCircuitCode request for circuit 1858116759 to meta from IP 192.168.68.1:62045
+2024-05-15 11:34:24,607 DEBUG [SCENE]: Adding new child scene presence marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b to scene meta at pos <87.62722, 161.5497, 75.39697>, tpflags: ViaLogin
+2024-05-15 11:34:24,609 DEBUG [LLUDPSERVER]: Client created
+2024-05-15 11:34:24,609 DEBUG [LLUDPSERVER]: processing UseCircuitCode pending queue, 0 entries
+2024-05-15 11:34:24,630 INFO  [SCENE PRESENCE]: Complete movement of marcelo firmino into meta <87.62722, 161.5497, 75.39697>
+2024-05-15 11:34:24,631 DEBUG [PRESENCE SERVICE]: ReportAgent: session 122d3f17-5dfd-422e-960c-f3a447634617, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b. Previously: region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-15 11:34:24,637 DEBUG [CompleteMovement] end: 0ms
+2024-05-15 11:34:25,850 DEBUG [SCENE PRESENCE(meta)]: SendInitialData for 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 11:34:25,851 DEBUG [SCENE PRESENCE(meta)]: SendInitialData at parcel 3d7d0e72-7209-4ebd-af93-1d244fff5f68
+2024-05-15 11:34:30,171 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 11:34:30,172 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 11:34:30,172 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 11:34:30,173 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 11:34:30,173 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 11:34:30,174 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 11:34:30,174 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 11:34:30,175 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 11:34:30,175 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 11:34:30,176 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 11:34:30,223 WARN  [AVFACTORY]: Can't find inventory item db5a4e5f-9da3-44c8-992d-1181c5795498 for Skin, setting to default
+2024-05-15 11:34:30,224 WARN  [AVFACTORY]: Can't find inventory item 6969c7cc-f72f-4a76-a19b-c293cce8ce4f for Hair, setting to default
+2024-05-15 11:34:30,224 WARN  [AVFACTORY]: Can't find inventory item 7999702b-b291-48f9-8903-c91dfb828408 for Eyes, setting to default
+2024-05-15 11:34:30,225 WARN  [AVFACTORY]: Can't find inventory item 566cb59e-ef60-41d7-bfa6-e0f293fbea40 for Shirt, setting to default
+2024-05-15 11:34:35,874 WARN  [Materials]: request for unknown material ID: 405d20ce-0bfe-e344-8661-624961658a1a
+2024-05-15 11:34:39,780 WARN  [Materials]: request for unknown material ID: 63cfb53f-f24c-dd8b-c13f-159ef857b6cd
+2024-05-15 11:58:27,600 INFO  [CLIENT]: Got a logout request for marcelo firmino in meta
+2024-05-15 11:58:27,601 DEBUG [CLIENT]: Close has been called for marcelo firmino attached to scene meta
+2024-05-15 11:58:27,602 DEBUG [GRID USER SERVICE]: User 8a137126-9202-4244-b3e9-a1ec7d39f59b is offline
+2024-05-15 11:58:27,607 DEBUG [PRESENCE SERVICE]: LogoutAgent: session 122d3f17-5dfd-422e-960c-f3a447634617, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-15 11:58:27,607 DEBUG [JobEngine] Stopping AsyncInUDP-8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 11:58:27,608 DEBUG [SCENE]: Removing root agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b from meta
+2024-05-15 11:58:27,609 DEBUG [Scene] The avatar has left the building
+2024-05-15 11:58:27,610 DEBUG [CAPS]: Remove caps for agent 8a137126-9202-4244-b3e9-a1ec7d39f59b in region meta
+2024-05-15 11:58:55,016 INFO  [LLOGIN SERVICE]: Login request for marcelo firmino at last using viewer 1.8.9.8338, channel Singularity Release 64, IP 127.0.0.1, Mac 96ea8f8dad3fc63a6611f4b37d64e090, Id0 aa93fb7ba9979fc6bf3a8df553e06e52 
+2024-05-15 11:58:55,016 DEBUG [AUTH SERVICE]: Authenticating for 8a137126-9202-4244-b3e9-a1ec7d39f59b, user account service present: True
+2024-05-15 11:58:55,030 DEBUG [PRESENCE SERVICE]: LoginAgent: session 87101d1d-af65-4ef7-b647-5150f6c16f67, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region 00000000-0000-0000-0000-000000000000, secure session 43af53ea-2dd8-434d-a201-e666492e694c
+2024-05-15 11:58:55,030 DEBUG [LLOGIN SERVICE]: Finding destination matching start location last for marcelo firmino
+2024-05-15 11:58:55,032 DEBUG [LLOGIN SERVICE]: Found destination meta, endpoint 192.168.68.1:9000 for marcelo firmino
+2024-05-15 11:58:55,032 DEBUG [SCENE]: Region meta told of incoming root agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b (circuit code 156056406, IP 127.0.0.1, viewer Singularity Release 64 1.8.9.8338, teleportflags (ViaLogin), position <149.3494, 204.6917, 25.24268>. 
+2024-05-15 11:58:55,032 INFO  [SCENE meta]: authorized child agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b (circuit code 156056406)
+2024-05-15 11:58:55,032 DEBUG [CreateCaps]: new caps agent 8a137126-9202-4244-b3e9-a1ec7d39f59b, circuit 156056406, path a1cc5547-bd17-4071-8a37-e874e086e21e
+2024-05-15 11:58:55,034 DEBUG [GRID USER SERVICE]: User 8a137126-9202-4244-b3e9-a1ec7d39f59b is online
+2024-05-15 11:58:55,036 DEBUG [LOGIN RESPONSE] LLLoginResponse create. sizeX=256, sizeY=256
+2024-05-15 11:58:55,039 DEBUG [LLOGIN SERVICE]: All clear. Sending login response to marcelo firmino
+2024-05-15 11:58:55,039 DEBUG [LOGIN RESPONSE] returning sizeX=256, sizeY=256
+2024-05-15 11:58:55,232 DEBUG [CAPS]: Received SEED caps request in meta for agent 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 11:58:55,233 DEBUG [SCENE]: Incoming client marcelo firmino in region meta via regular login. Client IP verification not performed.
+2024-05-15 11:58:55,454 DEBUG [LLUDPSERVER]: Handling UseCircuitCode request for circuit 156056406 to meta from IP 192.168.68.1:56692
+2024-05-15 11:58:55,455 DEBUG [SCENE]: Adding new child scene presence marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b to scene meta at pos <149.3494, 204.6917, 25.24268>, tpflags: ViaLogin
+2024-05-15 11:58:55,456 DEBUG [LLUDPSERVER]: Client created
+2024-05-15 11:58:55,456 DEBUG [LLUDPSERVER]: processing UseCircuitCode pending queue, 0 entries
+2024-05-15 11:58:55,472 INFO  [SCENE PRESENCE]: Complete movement of marcelo firmino into meta <149.3494, 204.6917, 25.24268>
+2024-05-15 11:58:55,473 DEBUG [PRESENCE SERVICE]: ReportAgent: session 87101d1d-af65-4ef7-b647-5150f6c16f67, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b. Previously: region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-15 11:58:55,478 DEBUG [CompleteMovement] end: 0ms
+2024-05-15 11:58:57,025 DEBUG [SCENE PRESENCE(meta)]: SendInitialData for 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 11:58:57,025 DEBUG [SCENE PRESENCE(meta)]: SendInitialData at parcel 3d7d0e72-7209-4ebd-af93-1d244fff5f68
+2024-05-15 11:58:58,080 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 11:58:58,080 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 11:58:58,080 WARN  [Materials]: request for unknown material ID: 63cfb53f-f24c-dd8b-c13f-159ef857b6cd
+2024-05-15 11:58:58,080 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 11:58:58,087 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 11:58:58,087 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 11:58:58,087 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 11:58:58,087 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 11:58:58,087 WARN  [Materials]: request for unknown material ID: 405d20ce-0bfe-e344-8661-624961658a1a
+2024-05-15 11:58:58,090 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 11:58:58,090 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 11:58:58,090 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 11:59:01,058 WARN  [AVFACTORY]: Can't find inventory item db5a4e5f-9da3-44c8-992d-1181c5795498 for Skin, setting to default
+2024-05-15 11:59:01,058 WARN  [AVFACTORY]: Can't find inventory item 6969c7cc-f72f-4a76-a19b-c293cce8ce4f for Hair, setting to default
+2024-05-15 11:59:01,060 WARN  [AVFACTORY]: Can't find inventory item 7999702b-b291-48f9-8903-c91dfb828408 for Eyes, setting to default
+2024-05-15 11:59:01,060 WARN  [AVFACTORY]: Can't find inventory item 566cb59e-ef60-41d7-bfa6-e0f293fbea40 for Shirt, setting to default
+2024-05-15 12:03:31,470 INFO  [CLIENT]: Got a logout request for marcelo firmino in meta
+2024-05-15 12:03:31,470 DEBUG [CLIENT]: Close has been called for marcelo firmino attached to scene meta
+2024-05-15 12:03:31,471 DEBUG [GRID USER SERVICE]: User 8a137126-9202-4244-b3e9-a1ec7d39f59b is offline
+2024-05-15 12:03:31,486 DEBUG [PRESENCE SERVICE]: LogoutAgent: session 87101d1d-af65-4ef7-b647-5150f6c16f67, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-15 12:03:31,488 DEBUG [JobEngine] Stopping AsyncInUDP-8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 12:03:31,488 DEBUG [SCENE]: Removing root agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b from meta
+2024-05-15 12:03:31,488 DEBUG [Scene] The avatar has left the building
+2024-05-15 12:03:31,489 DEBUG [CAPS]: Remove caps for agent 8a137126-9202-4244-b3e9-a1ec7d39f59b in region meta
+2024-05-15 12:03:59,632 INFO  [OPENSIM MAIN]: configured log4net using default OpenSim.exe.config
+2024-05-15 12:03:59,640 INFO  [OPENSIM MAIN]: System Locale is en-US
+2024-05-15 12:03:59,648 INFO  [UTIL] TimeStamp clock with period of 0.0001ms
+2024-05-15 12:03:59,648 INFO  [OPENSIM MAIN]: Runtime gave us 16 min worker threads and 16 min IOCP threads
+2024-05-15 12:03:59,648 INFO  [OPENSIM MAIN]: Runtime gave us 32767 max worker threads and 1000 max IOCP threads
+2024-05-15 12:03:59,648 INFO  [OPENSIM MAIN]: Limiting max worker threads to 1000
+2024-05-15 12:03:59,649 INFO  [OPENSIM MAIN]: Threadpool set to 1000 max worker threads and 1000 max IOCP threads
+2024-05-15 12:03:59,649 INFO  [OPENSIM MAIN]: Environment is supported by OpenSimulator.
+2024-05-15 12:03:59,654 INFO  Default culture changed to Inglês (Estados Unidos)
+2024-05-15 12:03:59,661 INFO  [CONFIG]: Reading configuration settings
+2024-05-15 12:03:59,661 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\OpenSimDefaults.ini
+2024-05-15 12:03:59,672 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\OpenSim.ini
+2024-05-15 12:03:59,676 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\config-include\osslDefaultEnable.ini
+2024-05-15 12:03:59,678 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\config-include\Standalone.ini
+2024-05-15 12:03:59,680 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\config-include\osslEnable.ini
+2024-05-15 12:03:59,681 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\config-include\StandaloneCommon.ini
+2024-05-15 12:03:59,684 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\config-include\FlotsamCache.ini
+2024-05-15 12:03:59,687 INFO  [CONFIG]: Reading configuration file C:\Users\UFRR\MDV\bin\config-include\storage\SQLiteStandalone.ini
+2024-05-15 12:03:59,689 INFO  [CONFIG]: Loading environment variables for Config
+2024-05-15 12:03:59,698 INFO  [OPENSIM MAIN]: Using async_call_method SmartThreadPool
+2024-05-15 12:03:59,698 INFO  [OPENSIM MAIN] Running GC in workstation mode
+2024-05-15 12:03:59,699 INFO  [STARTUP]: Beginning startup processing
+2024-05-15 12:03:59,699 INFO  [STARTUP]: version: OpenSim 0.9.2.2 Yeti Release2a28e85
+
+2024-05-15 12:03:59,700 INFO  [STARTUP]: Operating system version: Microsoft Windows NT 6.2.9200.0, .NET platform Win32NT, 64-bit
+
+2024-05-15 12:03:59,700 INFO  [STARTUP]: Processor Architecture: AMD64(le)
+2024-05-15 12:03:59,705 INFO  ====================================================================
+2024-05-15 12:03:59,705 INFO  ========================= STARTING OPENSIM =========================
+2024-05-15 12:03:59,705 INFO  ====================================================================
+2024-05-15 12:03:59,710 INFO  [LOCAL CONSOLE]: Persistent command line history is Enabled, up to 100 lines from file C:\Users\UFRR\MDV\bin\OpenSimConsoleHistory.txt without timestamps
+2024-05-15 12:03:59,710 INFO  [LOCAL CONSOLE]: Read 4 lines of command line history from file C:\Users\UFRR\MDV\bin\OpenSimConsoleHistory.txt
+2024-05-15 12:03:59,714 INFO  [SERVER BASE]: Logging started to file C:\Users\UFRR\MDV\bin\OpenSim.log
+2024-05-15 12:03:59,717 INFO  [SERVER BASE]: Stats Logging started to file C:\Users\UFRR\MDV\bin\OpenSimStats.log
+2024-05-15 12:03:59,717 INFO  [SERVER BASE]: Starting in C:\Users\UFRR\MDV\bin
+2024-05-15 12:03:59,718 INFO  [SERVER BASE]: OpenSimulator version: OpenSim 0.9.2.2 Yeti Release2a28e85
+2024-05-15 12:03:59,718 INFO  [SERVER BASE]: Operating system version: Microsoft Windows NT 6.2.9200.0, .NET platform Win32NT, 64-bit
+2024-05-15 12:03:59,737 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:03:59,746 INFO  [SQLITE REGION DB]: Sqlite - connecting: URI=file:OpenSim.db,version=3,UseUTF16Encoding=True
+2024-05-15 12:03:59,783 DEBUG [MIGRATIONS]: RegionStore data tables already up to date at revision 40
+2024-05-15 12:04:00,209 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,209 INFO  [ESTATE DB]: Sqlite - connecting: URI=file:OpenSim.db,version=3,UseUTF16Encoding=True
+2024-05-15 12:04:00,210 DEBUG [MIGRATIONS]: EstateStore data tables already up to date at revision 12
+2024-05-15 12:04:00,220 INFO  [BASE HTTP SERVER]: Starting HTTP server on port 9000
+2024-05-15 12:04:00,226 DEBUG [WATCHDOG]: Started tracking thread PollServiceWatcherThread, ID 10
+2024-05-15 12:04:00,234 INFO  [PLUGINS]: Initializing addin manager
+2024-05-15 12:04:00,279 INFO  [PLUGINS]: Plugin Loaded: OpenSim
+2024-05-15 12:04:00,281 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.Framework
+2024-05-15 12:04:00,282 INFO  [PLUGINS]: Plugin Loaded: Robust
+2024-05-15 12:04:00,285 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Data
+2024-05-15 12:04:00,304 INFO  [PLUGINS]: Loading extension point /OpenSim/Startup
+2024-05-15 12:04:00,321 INFO  [PLUGINS]: Trying plugin /OpenSim/Startup/LoadRegions
+2024-05-15 12:04:00,322 INFO  [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.RegionModulesController
+2024-05-15 12:04:00,324 INFO  [PLUGINS]: Trying plugin /OpenSim/Startup/LoadRegions
+2024-05-15 12:04:00,324 INFO  [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.RemoteController
+2024-05-15 12:04:00,325 INFO  [PLUGINS]: Trying plugin /OpenSim/Startup/LoadRegions
+2024-05-15 12:04:00,325 INFO  [PLUGINS]: Plugin Loaded: OpenSim.ApplicationPlugins.LoadRegions
+2024-05-15 12:04:00,330 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.BasicPhysics
+2024-05-15 12:04:00,333 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.OptionalModules
+2024-05-15 12:04:00,338 INFO  [PLUGINS]: Plugin Loaded: OpenSim.OfflineIM
+2024-05-15 12:04:00,339 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.Meshing
+2024-05-15 12:04:00,340 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Groups
+2024-05-15 12:04:00,342 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.ScriptEngine.XEngine
+2024-05-15 12:04:00,343 INFO  [PLUGINS]: Plugin Loaded: LindenCaps
+2024-05-15 12:04:00,345 INFO  [PLUGINS]: Plugin Loaded: YEngine
+2024-05-15 12:04:00,346 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.BulletS
+2024-05-15 12:04:00,348 INFO  [PLUGINS]: Plugin Loaded: LindenUDP
+2024-05-15 12:04:00,349 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.POS
+2024-05-15 12:04:00,351 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.ubOde
+2024-05-15 12:04:00,355 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.ODE
+2024-05-15 12:04:00,356 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.CoreModules
+2024-05-15 12:04:00,365 INFO  [PLUGINS]: Plugin Loaded: OpenSim.Region.PhysicsModule.ubOdeMeshing
+2024-05-15 12:04:00,366 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.BasicPhysics, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 12:04:00,367 INFO  [REGIONMODULES]: From plugin OpenSim.Region.OptionalModules, (version 0.9.2.2), loaded 39 modules, 20 shared, 19 non-shared 0 unknown
+2024-05-15 12:04:00,367 INFO  [REGIONMODULES]: From plugin OpenSim.OfflineIM, (version 0.9.2.2), loaded 1 modules, 1 shared, 0 non-shared 0 unknown
+2024-05-15 12:04:00,367 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.Meshing, (version 0.9.2.2), loaded 2 modules, 0 shared, 2 non-shared 0 unknown
+2024-05-15 12:04:00,368 INFO  [REGIONMODULES]: From plugin OpenSim.Groups, (version 0.9.2.2), loaded 5 modules, 5 shared, 0 non-shared 0 unknown
+2024-05-15 12:04:00,368 INFO  [REGIONMODULES]: From plugin OpenSim.Region.ScriptEngine.XEngine, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 12:04:00,368 INFO  [REGIONMODULES]: From plugin LindenCaps, (version 0.9.2.2), loaded 17 modules, 5 shared, 12 non-shared 0 unknown
+2024-05-15 12:04:00,368 INFO  [REGIONMODULES]: From plugin YEngine, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 12:04:00,368 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.BulletS, (version 0.9.2.2), loaded 2 modules, 0 shared, 2 non-shared 0 unknown
+2024-05-15 12:04:00,368 INFO  [REGIONMODULES]: From plugin LindenUDP, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 12:04:00,368 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.POS, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 12:04:00,369 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.ubOde, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 12:04:00,369 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.ODE, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 12:04:00,369 INFO  [REGIONMODULES]: From plugin OpenSim.Region.CoreModules, (version 0.9.2.2), loaded 115 modules, 74 shared, 41 non-shared 0 unknown
+2024-05-15 12:04:00,369 INFO  [REGIONMODULES]: From plugin OpenSim.Region.PhysicsModule.ubOdeMeshing, (version 0.9.2.2), loaded 1 modules, 0 shared, 1 non-shared 0 unknown
+2024-05-15 12:04:00,403 INFO  [Serialiser] Enabled, using save dir "exports"
+2024-05-15 12:04:00,408 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,410 DEBUG [MIGRATIONS]: UserAccount data tables already up to date at revision 3
+2024-05-15 12:04:00,414 DEBUG [GRID SERVICE]: Starting...
+2024-05-15 12:04:00,419 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,419 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,420 DEBUG [MIGRATIONS]: AuthStore data tables already up to date at revision 2
+2024-05-15 12:04:00,422 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,423 DEBUG [MIGRATIONS]: GridUserStore data tables already up to date at revision 1
+2024-05-15 12:04:00,423 DEBUG [GRID USER SERVICE]: Starting user grid service
+2024-05-15 12:04:00,425 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,425 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,426 DEBUG [MIGRATIONS]: XInventoryStore data tables already up to date at revision 2
+2024-05-15 12:04:00,426 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,427 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,428 DEBUG [MIGRATIONS]: Avatar data tables already up to date at revision 1
+2024-05-15 12:04:00,428 DEBUG [AVATAR SERVICE]: Starting avatar service
+2024-05-15 12:04:00,466 INFO  [LOCAL USER ACCOUNT SERVICE CONNECTOR]: Local user connector enabled
+2024-05-15 12:04:00,468 INFO  [LOCAL SIMULATION CONNECTOR]: Local simulation enabled.
+2024-05-15 12:04:00,469 DEBUG [LOCAL PRESENCE CONNECTOR]: Service dll = OpenSim.Services.PresenceService.dll:PresenceService
+2024-05-15 12:04:00,471 DEBUG [PRESENCE SERVICE]: Starting presence service
+2024-05-15 12:04:00,471 INFO  [LOCAL PRESENCE CONNECTOR]: Local presence connector enabled
+2024-05-15 12:04:00,472 INFO  [NEIGHBOUR CONNECTOR]: Neighbour out connector enabled
+2024-05-15 12:04:00,476 DEBUG [MAP IMAGE SERVICE]: Starting MapImage service
+2024-05-15 12:04:00,479 INFO  [MAP IMAGE SERVICE MODULE]: enabled with no refresh and service object OpenSim.Services.MapImageService.dll:MapImageService
+2024-05-15 12:04:00,480 INFO  [LAND CONNECTOR]: Local land connector enabled
+2024-05-15 12:04:00,482 DEBUG [LOCAL INVENTORY SERVICES CONNECTOR]: Service dll = OpenSim.Services.InventoryService.dll:XInventoryService
+2024-05-15 12:04:00,483 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,483 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,483 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,483 INFO  [LOCAL INVENTORY SERVICES CONNECTOR]: Local inventory connector enabled
+2024-05-15 12:04:00,485 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,485 DEBUG [GRID USER SERVICE]: Starting user grid service
+2024-05-15 12:04:00,485 DEBUG [ACTIVITY DETECTOR]: starting 
+2024-05-15 12:04:00,485 INFO  [LOCAL GRID USER SERVICE CONNECTOR]: Local grid user connector enabled
+2024-05-15 12:04:00,488 DEBUG [GRID SERVICE]: Starting...
+2024-05-15 12:04:00,489 INFO  [REGION GRID CONNECTOR]: enabled in Standalone mode
+2024-05-15 12:04:00,490 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,490 DEBUG [AVATAR SERVICE]: Starting avatar service
+2024-05-15 12:04:00,491 INFO  [AVATAR CONNECTOR]: Local avatar connector enabled
+2024-05-15 12:04:00,492 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,492 INFO  [AUTH CONNECTOR]: Local Authentication connector enabled
+2024-05-15 12:04:00,497 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,497 DEBUG [MIGRATIONS]: AssetStore data tables already up to date at revision 6
+2024-05-15 12:04:00,499 DEBUG [ASSET SERVICE]: Loading default asset set from assets/AssetSets.xml
+2024-05-15 12:04:00,645 DEBUG [ASSET SERVICE]: Local asset service enabled
+2024-05-15 12:04:00,647 INFO  [REGIONASSETCONNECTOR]: enabled
+2024-05-15 12:04:00,649 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,650 DEBUG [MIGRATIONS]: AgentPrefs data tables already up to date at revision 2
+2024-05-15 12:04:00,650 DEBUG [AGENT PREFERENCES SERVICE]: Starting agent preferences service
+2024-05-15 12:04:00,650 INFO  [AGENT PREFERENCES CONNECTOR]: Local agent preferences connector enabled
+2024-05-15 12:04:00,653 INFO  [LOCAL USERPROFILES SERVICE CONNECTOR]: Local user profiles connector enabled
+2024-05-15 12:04:00,654 INFO  [MAP SERVICE IN CONNECTOR]: MapImage Service In Connector enabled
+2024-05-15 12:04:00,655 INFO  [LLLOGIN IN CONNECTOR]: LLLoginerviceInConnector enabled
+2024-05-15 12:04:00,657 INFO  [GRIDINFO IN CONNECTOR]: GridInfo Service In Connector enabled
+2024-05-15 12:04:00,658 DEBUG [VECTORRENDERMODULE]: using font "Arial" for text rendering.
+2024-05-15 12:04:00,660 DEBUG [OUTBOUND URL FILTER]: OutboundDisallowForUserScripts for Script dynamic texture image module is [0.0.0.0/8|10.0.0.0/8|100.64.0.0/10|127.0.0.0/8|169.254.0.0/16|172.16.0.0/12|192.0.0.0/24|192.0.2.0/24|192.88.99.0/24|192.168.0.0/16|198.18.0.0/15|198.51.100.0/24|203.0.113.0/24|224.0.0.0/4|240.0.0.0/4|255.255.255.255/32]
+2024-05-15 12:04:00,660 DEBUG [OUTBOUND URL FILTER]: OutboundDisallowForUserScriptsExcept for Script dynamic texture image module is []
+2024-05-15 12:04:00,676 DEBUG [USER MANAGEMENT MODULE]: BasicUserManagementModule is enabled
+2024-05-15 12:04:00,679 DEBUG [BASIC SEARCH MODULE]: BasicSearchModule is enabled
+2024-05-15 12:04:00,680 DEBUG [LIBRARY MODULE]: Library service dll is OpenSim.Services.InventoryService.dll:LibraryService
+2024-05-15 12:04:00,680 DEBUG [LIBRARY]: Starting library service...
+2024-05-15 12:04:00,683 INFO  [LIBRARY INVENTORY]: Loading library control file ./inventory/Libraries.xml
+2024-05-15 12:04:00,693 DEBUG [LURE MODULE]: LureModule enabled
+2024-05-15 12:04:00,695 DEBUG [HG MESSAGE TRANSFER]: Disabled by configuration
+2024-05-15 12:04:00,696 DEBUG [MESSAGE TRANSFER]: Module enabled
+2024-05-15 12:04:00,698 INFO  [GROUPS]: Groups disabled in configuration
+2024-05-15 12:04:00,701 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:00,702 DEBUG [MIGRATIONS]: FriendsStore data tables already up to date at revision 2
+2024-05-15 12:04:00,702 DEBUG [FRIENDS MODULE]: FriendsModule enabled.
+2024-05-15 12:04:00,705 INFO  [FLOTSAM ASSET CACHE]: FlotsamAssetCache enabled
+2024-05-15 12:04:00,705 INFO  [FLOTSAM ASSET CACHE]: Cache Directory C:\Users\UFRR\MDV\bin\assetcache
+2024-05-15 12:04:00,715 INFO  [LLLOGIN IN CONNECTOR]: Starting...
+2024-05-15 12:04:00,722 DEBUG [RADMIN]: Creating default avatar entries
+2024-05-15 12:04:00,722 DEBUG [RADMIN]: No default avatar information available
+2024-05-15 12:04:00,723 INFO  [RADMIN]: Default avatars not loaded
+2024-05-15 12:04:00,724 INFO  [LOAD REGIONS PLUGIN]: Loading region configurations from filesystem
+2024-05-15 12:04:00,727 INFO  [REGION LOADER FILE SYSTEM]: Loading config files from .\Regions
+2024-05-15 12:04:00,727 INFO  [REGION LOADER FILE SYSTEM]: Loading config file .\Regions\Regions.ini
+2024-05-15 12:04:00,737 INFO  [REGIONINFO]: Resolving SYSTEMIP to 192.168.68.1 for external hostname of region meta
+2024-05-15 12:04:00,739 INFO  [REGION LOADER FILE SYSTEM]: Loaded config for region meta
+2024-05-15 12:04:00,739 INFO  [LOAD REGIONS PLUGIN]: Loading specific shared modules...
+2024-05-15 12:04:00,740 INFO  [LOAD REGIONS PLUGIN]: Done.
+2024-05-15 12:04:00,741 DEBUG [LOAD REGIONS PLUGIN]: Creating Region: meta (ThreadID: 1)
+2024-05-15 12:04:00,778 INFO  [SCENE]: Default script engine YEngine
+2024-05-15 12:04:00,779 INFO  [SCENE]: Region meta, WORLD MAP refresh time set to 0 seconds
+2024-05-15 12:04:00,779 DEBUG [SCENE]: Using the BestAvatarResponsiveness prioritization scheme
+2024-05-15 12:04:00,786 INFO  [TERRAIN DATA] VD2Gzip 63196 bytes input
+2024-05-15 12:04:00,789 DEBUG [TERRAIN DATA] V2DGzip. Heightmap size=<256,256>. Region size=<256,256>
+2024-05-15 12:04:00,789 DEBUG [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=<256,256>
+2024-05-15 12:04:00,790 INFO  [TERRAIN DATA] VD2Gzip 63196 bytes input
+2024-05-15 12:04:00,793 DEBUG [TERRAIN DATA] V2DGzip. Heightmap size=<256,256>. Region size=<256,256>
+2024-05-15 12:04:00,793 DEBUG [TERRAIN DATA] HeightmapTerrainData create from Variable2DGzip serialization. Size=<256,256>
+2024-05-15 12:04:00,793 DEBUG [SQLITE REGION DB]: Loaded terrain revision r23
+2024-05-15 12:04:00,794 INFO  [REGIONMODULES]: Loading Region's modules
+2024-05-15 12:04:00,811 INFO  [BASE PRESENCE SERVICE CONNECTOR]: Enabled for region meta
+2024-05-15 12:04:00,826 DEBUG [MESSAGE TRANSFER]: Message transfer module active
+2024-05-15 12:04:00,829 INFO  [CHAT]: Initialized for meta w:10 s:20 S:100
+2024-05-15 12:04:00,834 DEBUG [TREES]: Initialised tree populator module
+2024-05-15 12:04:00,839 DEBUG [Materials]: Initialized
+2024-05-15 12:04:00,857 INFO  [YEngine]: config enabled=True
+2024-05-15 12:04:00,860 INFO  [EXTENDED PHYSICS] module is not enabled
+2024-05-15 12:04:00,862 ERROR [ubODE] Opensim.ini meshing option must be set to "ubODEMeshmerizer"
+2024-05-15 12:04:00,863 DEBUG [UTIL]: Loading native Windows library at lib64\ubode.dll
+2024-05-15 12:04:00,864 INFO  [ubODE] ode library configuration: ODE ODE_EXT_no_debug ODE_single_precision ODE_OPENSIM OS0.13.4
+2024-05-15 12:04:00,865 INFO  [WIND] Enabled with an update rate of 150 frames.
+2024-05-15 12:04:00,874 DEBUG [PERMISSIONS]: allowed_script_creators All
+2024-05-15 12:04:00,875 DEBUG [PERMISSIONS]: allowed_script_editors All
+2024-05-15 12:04:00,875 DEBUG [PERMISSIONS]: Enabling all region service permission checks
+2024-05-15 12:04:00,876 INFO  [EnvironmentModule]: Module is enabled.
+2024-05-15 12:04:00,879 INFO  [AUTHORIZATION CONNECTOR]: Initialise
+2024-05-15 12:04:00,879 INFO  [AUTHORIZATION CONNECTOR]: Local authorization connector enabled
+2024-05-15 12:04:00,883 DEBUG [OUTBOUND URL FILTER]: OutboundDisallowForUserScripts for Script HTTP request module is [0.0.0.0/8|10.0.0.0/8|100.64.0.0/10|127.0.0.0/8|169.254.0.0/16|172.16.0.0/12|192.0.0.0/24|192.0.2.0/24|192.88.99.0/24|192.168.0.0/16|198.18.0.0/15|198.51.100.0/24|203.0.113.0/24|224.0.0.0/4|240.0.0.0/4|255.255.255.255/32]
+2024-05-15 12:04:00,884 DEBUG [OUTBOUND URL FILTER]: OutboundDisallowForUserScriptsExcept for Script HTTP request module is []
+2024-05-15 12:04:00,886 INFO  [INVENTORY ACCESS MODULE]: BasicInventoryAccessModule enabled.
+2024-05-15 12:04:00,889 DEBUG [ENTITY TRANSFER MODULE]: BasicEntityTransferModule enabled.
+2024-05-15 12:04:00,913 DEBUG [RegionReady]: Enabled for region meta
+2024-05-15 12:04:00,920 INFO  [YEngine]: Enabled for region meta
+2024-05-15 12:04:00,920 INFO  [YEngine]: 2.000MB stacksize, 1.000MB heapsize
+2024-05-15 12:04:00,921 DEBUG [YEngine]: starting thread Yengine sleep (meta)
+2024-05-15 12:04:00,922 DEBUG [YEngine]: starting thread YScript0 (meta)
+2024-05-15 12:04:00,922 DEBUG [YEngine]: starting thread YScript1 (meta)
+2024-05-15 12:04:01,079 INFO  [LLUDPSERVER]: Average Environment.TickCount resolution: 15.7ms
+2024-05-15 12:04:01,079 INFO  [LLUDPSERVER]: Average Util.GetTimeStampMS resolution: 0.000103ms
+2024-05-15 12:04:01,109 INFO  [WIND] Found Plugin: ConfigurableWind
+2024-05-15 12:04:01,109 INFO  [WIND] Found Plugin: SimpleRandomWind
+2024-05-15 12:04:01,109 INFO  [WIND] SimpleRandomWind plugin found, initializing.
+2024-05-15 12:04:01,112 INFO  [WORLD MAP]: JPEG Map location: http://192.168.68.1:9000/index.php?method=regionImagecd5fe6c9614a4645bcb3e17ddff4486b
+2024-05-15 12:04:01,113 DEBUG [WATCHDOG]: Started tracking thread MapBlocks (meta), ID 14
+2024-05-15 12:04:01,123 INFO  L ... GenericSystemDrawing
+2024-05-15 12:04:01,123 INFO  L ... JPEG
+2024-05-15 12:04:01,123 INFO  L ... LLRAW
+2024-05-15 12:04:01,123 INFO  L ... RAW32
+2024-05-15 12:04:01,124 INFO  E ... ChannelDigger
+2024-05-15 12:04:01,124 INFO  E ... DefaultTerrainGenerator
+2024-05-15 12:04:01,168 INFO  [LOCAL USER ACCOUNT SERVICE CONNECTOR]: Enabled local user accounts for region meta
+2024-05-15 12:04:01,168 INFO  [NEIGHBOUR CONNECTOR]: Enabled out neighbours for region meta
+2024-05-15 12:04:01,169 INFO  [LOCAL GRID USER SERVICE CONNECTOR]: Enabled local grid user for region meta
+2024-05-15 12:04:01,170 INFO  [REGIONASSETCONNECTOR]: active with cache for region meta
+2024-05-15 12:04:01,171 DEBUG [LLLOGIN IN CONNECTOR]: Starting...
+2024-05-15 12:04:01,175 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,175 DEBUG [GRID SERVICE]: Starting...
+2024-05-15 12:04:01,175 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,176 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,176 DEBUG [GRID USER SERVICE]: Starting user grid service
+2024-05-15 12:04:01,176 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,176 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,176 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,177 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,177 DEBUG [AVATAR SERVICE]: Starting avatar service
+2024-05-15 12:04:01,177 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,177 DEBUG [GRID USER SERVICE]: Starting user grid service
+2024-05-15 12:04:01,178 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,178 DEBUG [AUTH SERVICE]: Started with User Account access
+2024-05-15 12:04:01,178 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,178 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,179 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,179 DEBUG [GRID SERVICE]: Starting...
+2024-05-15 12:04:01,179 DEBUG [PRESENCE SERVICE]: Starting presence service
+2024-05-15 12:04:01,179 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,180 DEBUG [AVATAR SERVICE]: Starting avatar service
+2024-05-15 12:04:01,180 DEBUG [UTIL]: Loading native Windows library at lib64\sqlite3.dll
+2024-05-15 12:04:01,180 DEBUG [LLOGIN SERVICE]: Using LibraryService given as argument
+2024-05-15 12:04:01,182 DEBUG [LLOGIN SERVICE]: Starting...
+2024-05-15 12:04:01,183 INFO  [GridInfo]: Starting...
+2024-05-15 12:04:01,186 DEBUG [GRID INFO SERVICE]: Grid info service initialized with 5 keys
+2024-05-15 12:04:01,187 WARN  [BASIC SEARCH MODULE]: Could not get IGroupsModule
+2024-05-15 12:04:01,247 INFO  [YEngine] Hooking up to server events
+2024-05-15 12:04:01,251 INFO  [LLUDPSERVER]: Starting inbound packet processing for the LLUDP server
+2024-05-15 12:04:01,252 DEBUG [UDPBASE]: Starting inbound UDP loop
+2024-05-15 12:04:01,255 DEBUG [WATCHDOG]: Started tracking thread Incoming Packets (meta), ID 16
+2024-05-15 12:04:01,255 INFO  [LLUDPSERVER]: Starting outbound packet processing for the LLUDP server
+2024-05-15 12:04:01,256 DEBUG [UDPBASE]: Starting outbound UDP loop
+2024-05-15 12:04:01,256 DEBUG [WATCHDOG]: Started tracking thread Outgoing Packets (meta), ID 17
+2024-05-15 12:04:01,300 DEBUG [AuthorizationService]: Region meta access restrictions: None
+2024-05-15 12:04:01,300 INFO  [AUTHORIZATION CONNECTOR]: Enabled local authorization for region meta
+2024-05-15 12:04:01,301 INFO  [MODULE COMMANDS]: Script engine found, module active
+2024-05-15 12:04:01,305 INFO  [SCENE]: Secure permissions loading enabled, modules loaded: DefaultPermissionsModule
+2024-05-15 12:04:01,306 INFO  [SCENE]: Loading land objects from storage
+2024-05-15 12:04:01,365 INFO  [SCENE]: Loading objects from datastore
+2024-05-15 12:04:01,757 INFO  [SCENE]: Loaded 345 objects from the datastore
+2024-05-15 12:04:01,939 DEBUG [USER MANAGEMENT MODULE]: Caching creators' data from meta (345 objects)...
+2024-05-15 12:04:01,947 DEBUG [WORLD MAP]: Generating map image for meta
+2024-05-15 12:04:01,952 DEBUG [TEXTURED MAPTILE RENDERER] Generating Maptile Step 1: Terrain
+2024-05-15 12:04:01,954 DEBUG [TEXTURED MAPTILE RENDERER] Fetched texture 00000000-0000-2222-3333-100000001013, found: True
+2024-05-15 12:04:02,273 DEBUG [TEXTURED MAPTILE RENDERER]: Generating Maptile Step 1: Done in 328 ms
+2024-05-15 12:04:02,282 DEBUG [MAPTILE]: Generating Maptile Step 2: Object Volume Profile
+2024-05-15 12:04:02,344 DEBUG [MAPTILE]: Generating Maptile Step 2: Done in 47 ms
+2024-05-15 12:04:02,388 DEBUG [WORLD MAP]: Storing map image 7047a651-6499-4c6b-a62a-44f6ab4dba75 for meta
+2024-05-15 12:04:02,399 DEBUG [WORLD MAP]: Region meta has no parcels for sale, not generating overlay
+2024-05-15 12:04:02,422 DEBUG [MAP IMAGE SERVICE MODULE]: Upload maptile for meta
+2024-05-15 12:04:02,434 DEBUG [GRID SERVICE]: Region meta (cd5fe6c9-614a-4645-bcb3-e17ddff4486b, 256x256) registered at 1000,1000 with flags RegionOnline
+2024-05-15 12:04:02,435 INFO  [SCENE]: Initializing script instances in meta
+2024-05-15 12:04:02,467 DEBUG [YEngine]: adding api LSL
+2024-05-15 12:04:02,468 DEBUG [YEngine]: adding api LS
+2024-05-15 12:04:02,469 DEBUG [YEngine]: adding api MOD
+2024-05-15 12:04:02,469 DEBUG [YEngine]: adding api OSSL
+2024-05-15 12:04:02,520 DEBUG [WATCHDOG]: Started tracking thread AsyncLSLCmdHandlerThread, ID 21
+2024-05-15 12:04:02,843 INFO  [SCENE]: Initialized 581 script instances in meta
+2024-05-15 12:04:02,920 INFO  [ubOde] start processing pending actor operations
+2024-05-15 12:04:05,738 INFO  [ubOde] finished 28151 operations in 2828ms
+2024-05-15 12:04:05,739 INFO  [ubOde] 9144 prim actors loaded
+2024-05-15 12:04:05,740 DEBUG [YEngine]: StartProcessing entry
+2024-05-15 12:04:05,740 DEBUG [YEngine]: StartProcessing return
+2024-05-15 12:04:05,742 DEBUG [RegionReady]: Script compile queue empty!
+2024-05-15 12:04:05,751 DEBUG [RegionReady]: Region "meta" is ready: "server_startup,0," on channel -800
+2024-05-15 12:04:25,018 INFO  [LLOGIN SERVICE]: Login request for marcelo firmino at last using viewer 1.8.9.8338, channel Singularity Release 64, IP 127.0.0.1, Mac 96ea8f8dad3fc63a6611f4b37d64e090, Id0 aa93fb7ba9979fc6bf3a8df553e06e52 
+2024-05-15 12:04:25,058 DEBUG [AUTH SERVICE]: Authenticating for 8a137126-9202-4244-b3e9-a1ec7d39f59b, user account service present: True
+2024-05-15 12:04:25,118 DEBUG [PRESENCE SERVICE]: LoginAgent: session 615ddc57-599d-4216-be04-8481c9377d5f, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region 00000000-0000-0000-0000-000000000000, secure session 45cf3286-4da1-464f-960d-ce0be910ffb8
+2024-05-15 12:04:25,118 DEBUG [LLOGIN SERVICE]: Finding destination matching start location last for marcelo firmino
+2024-05-15 12:04:25,128 DEBUG [LLOGIN SERVICE]: Found destination meta, endpoint 192.168.68.1:9000 for marcelo firmino
+2024-05-15 12:04:25,148 DEBUG [SCENE]: Region meta told of incoming root agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b (circuit code 503675485, IP 127.0.0.1, viewer Singularity Release 64 1.8.9.8338, teleportflags (ViaLogin), position <149.3446, 204.6871, 25.12011>. 
+2024-05-15 12:04:25,160 INFO  [SCENE meta]: authorized child agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b (circuit code 503675485)
+2024-05-15 12:04:25,168 DEBUG [CreateCaps]: new caps agent 8a137126-9202-4244-b3e9-a1ec7d39f59b, circuit 503675485, path ecbb2b78-4abd-4b88-80bd-d47f0d8ed817
+2024-05-15 12:04:25,190 DEBUG [GRID USER SERVICE]: User 8a137126-9202-4244-b3e9-a1ec7d39f59b is online
+2024-05-15 12:04:25,210 DEBUG [LOGIN RESPONSE] LLLoginResponse create. sizeX=256, sizeY=256
+2024-05-15 12:04:25,210 DEBUG [LLOGIN SERVICE]: All clear. Sending login response to marcelo firmino
+2024-05-15 12:04:25,218 DEBUG [LOGIN RESPONSE] returning sizeX=256, sizeY=256
+2024-05-15 12:04:25,418 DEBUG [CAPS]: Received SEED caps request in meta for agent 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 12:04:25,418 DEBUG [SCENE]: Incoming client marcelo firmino in region meta via regular login. Client IP verification not performed.
+2024-05-15 12:04:25,642 DEBUG [LLUDPSERVER]: Handling UseCircuitCode request for circuit 503675485 to meta from IP 192.168.68.1:53082
+2024-05-15 12:04:25,678 DEBUG [SCENE]: Adding new child scene presence marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b to scene meta at pos <149.3446, 204.6871, 25.12011>, tpflags: ViaLogin
+2024-05-15 12:04:25,750 DEBUG [LLUDPSERVER]: Client created
+2024-05-15 12:04:25,750 DEBUG [LLUDPSERVER]: processing UseCircuitCode pending queue, 3 entries
+2024-05-15 12:04:25,767 INFO  [SCENE PRESENCE]: Complete movement of marcelo firmino into meta <149.3446, 204.6871, 25.12011>
+2024-05-15 12:04:25,783 DEBUG [PRESENCE SERVICE]: ReportAgent: session 615ddc57-599d-4216-be04-8481c9377d5f, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b. Previously: region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-15 12:04:25,859 DEBUG [CompleteMovement] end: 93ms
+2024-05-15 12:04:26,598 DEBUG [SCENE PRESENCE(meta)]: SendInitialData for 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 12:04:26,598 DEBUG [SCENE PRESENCE(meta)]: SendInitialData at parcel 3d7d0e72-7209-4ebd-af93-1d244fff5f68
+2024-05-15 12:04:27,698 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 12:04:27,698 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 12:04:27,698 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 12:04:27,698 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 12:04:27,698 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 12:04:27,698 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 12:04:27,698 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 12:04:27,698 WARN  [Materials]: request for unknown material ID: 405d20ce-0bfe-e344-8661-624961658a1a
+2024-05-15 12:04:27,704 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 12:04:27,704 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 12:04:27,704 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 12:04:31,438 WARN  [AVFACTORY]: Can't find inventory item db5a4e5f-9da3-44c8-992d-1181c5795498 for Skin, setting to default
+2024-05-15 12:04:31,440 WARN  [AVFACTORY]: Can't find inventory item 6969c7cc-f72f-4a76-a19b-c293cce8ce4f for Hair, setting to default
+2024-05-15 12:04:31,441 WARN  [AVFACTORY]: Can't find inventory item 7999702b-b291-48f9-8903-c91dfb828408 for Eyes, setting to default
+2024-05-15 12:04:31,442 WARN  [AVFACTORY]: Can't find inventory item 566cb59e-ef60-41d7-bfa6-e0f293fbea40 for Shirt, setting to default
+2024-05-15 12:04:32,163 WARN  [Materials]: request for unknown material ID: 63cfb53f-f24c-dd8b-c13f-159ef857b6cd
+2024-05-15 12:11:10,921 INFO  [CLIENT]: Got a logout request for marcelo firmino in meta
+2024-05-15 12:11:10,926 DEBUG [CLIENT]: Close has been called for marcelo firmino attached to scene meta
+2024-05-15 12:11:10,928 DEBUG [GRID USER SERVICE]: User 8a137126-9202-4244-b3e9-a1ec7d39f59b is offline
+2024-05-15 12:11:10,937 DEBUG [PRESENCE SERVICE]: LogoutAgent: session 615ddc57-599d-4216-be04-8481c9377d5f, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-15 12:11:10,948 DEBUG [JobEngine] Stopping AsyncInUDP-8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 12:11:10,950 DEBUG [SCENE]: Removing root agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b from meta
+2024-05-15 12:11:10,956 DEBUG [Scene] The avatar has left the building
+2024-05-15 12:11:10,960 DEBUG [CAPS]: Remove caps for agent 8a137126-9202-4244-b3e9-a1ec7d39f59b in region meta
+2024-05-15 12:18:28,802 INFO  [LLOGIN SERVICE]: Login request for marcelo firmino at last using viewer 6.6.17.70368, channel Firestorm-Releasex64, IP 127.0.0.1, Mac 8a6b38491ea33c067e9c7c188fe80ec0, Id0 aa93fb7ba9979fc6bf3a8df553e06e52 
+2024-05-15 12:18:28,802 DEBUG [AUTH SERVICE]: Authenticating for 8a137126-9202-4244-b3e9-a1ec7d39f59b, user account service present: True
+2024-05-15 12:18:28,818 DEBUG [PRESENCE SERVICE]: LoginAgent: session aff3a04a-f1c6-4b09-bee5-5d180644c626, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region 00000000-0000-0000-0000-000000000000, secure session 7e47a2b1-e62c-4936-a85c-22d2d1af3d2e
+2024-05-15 12:18:28,818 DEBUG [LLOGIN SERVICE]: Finding destination matching start location last for marcelo firmino
+2024-05-15 12:18:28,818 DEBUG [LLOGIN SERVICE]: Found destination meta, endpoint 192.168.68.1:9000 for marcelo firmino
+2024-05-15 12:18:28,818 DEBUG [SCENE]: Region meta told of incoming root agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b (circuit code 1363407471, IP 127.0.0.1, viewer Firestorm-Releasex64 6.6.17.70368, teleportflags (ViaLogin), position <149.3446, 204.6871, 25.03238>. 
+2024-05-15 12:18:28,818 INFO  [SCENE meta]: authorized child agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b (circuit code 1363407471)
+2024-05-15 12:18:28,818 DEBUG [CreateCaps]: new caps agent 8a137126-9202-4244-b3e9-a1ec7d39f59b, circuit 1363407471, path 11316f2c-0ea1-4896-9da5-b3bbfe28bbec
+2024-05-15 12:18:28,818 DEBUG [GRID USER SERVICE]: User 8a137126-9202-4244-b3e9-a1ec7d39f59b is online
+2024-05-15 12:18:28,825 DEBUG [LOGIN RESPONSE] LLLoginResponse create. sizeX=256, sizeY=256
+2024-05-15 12:18:28,825 DEBUG [LLOGIN SERVICE]: All clear. Sending login response to marcelo firmino
+2024-05-15 12:18:28,825 DEBUG [LOGIN RESPONSE] returning sizeX=256, sizeY=256
+2024-05-15 12:18:29,074 DEBUG [CAPS]: Received SEED caps request in meta for agent 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 12:18:29,074 DEBUG [SCENE]: Incoming client marcelo firmino in region meta via regular login. Client IP verification not performed.
+2024-05-15 12:18:31,455 DEBUG [LLUDPSERVER]: Handling UseCircuitCode request for circuit 1363407471 to meta from IP 192.168.68.1:59375
+2024-05-15 12:18:31,465 DEBUG [SCENE]: Adding new child scene presence marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b to scene meta at pos <149.3446, 204.6871, 25.03238>, tpflags: ViaLogin
+2024-05-15 12:18:31,465 DEBUG [LLUDPSERVER]: Client created
+2024-05-15 12:18:31,465 DEBUG [LLUDPSERVER]: processing UseCircuitCode pending queue, 0 entries
+2024-05-15 12:18:31,567 INFO  [SCENE PRESENCE]: Complete movement of marcelo firmino into meta <149.3446, 204.6871, 25.03238>
+2024-05-15 12:18:31,568 DEBUG [PRESENCE SERVICE]: ReportAgent: session aff3a04a-f1c6-4b09-bee5-5d180644c626, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b. Previously: region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-15 12:18:31,615 DEBUG [CompleteMovement] end: 47ms
+2024-05-15 12:18:31,995 DEBUG [SCENE PRESENCE(meta)]: SendInitialData for 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 12:18:31,995 DEBUG [SCENE PRESENCE(meta)]: SendInitialData at parcel 3d7d0e72-7209-4ebd-af93-1d244fff5f68
+2024-05-15 12:18:35,777 DEBUG [AVFACTORY]: Received texture update for marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 12:18:39,201 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 12:18:39,201 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 12:18:39,201 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 12:18:39,201 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 12:18:39,201 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 12:18:39,205 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 12:18:39,205 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 12:18:39,205 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 12:18:39,205 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 12:18:39,205 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 12:18:41,660 WARN  [Materials]: request for unknown material ID: 63cfb53f-f24c-dd8b-c13f-159ef857b6cd
+2024-05-15 12:48:12,502 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 12:48:12,503 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 12:48:12,503 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 12:48:12,504 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 12:48:12,505 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 12:48:12,505 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 12:48:12,506 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 12:48:12,506 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 12:48:12,507 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 12:48:12,508 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 13:03:18,166 WARN  [Materials]: request for unknown material ID: 63cfb53f-f24c-dd8b-c13f-159ef857b6cd
+2024-05-15 13:03:19,149 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 13:03:19,151 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 13:03:19,151 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 13:03:19,152 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 13:03:19,153 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 13:03:19,153 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 13:03:19,153 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 13:03:19,154 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 13:03:19,154 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 13:03:19,155 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 13:04:00,284 DEBUG DIAGNOSTICS
+
+Time now is 2024-05-15 13:04:00
+Server has been running since Wednesday, 2024-05-15 12:03:59
+That is an elapsed time of 01:00:00.5823907
+
+MEMORY STATISTICS
+Heap allocated to OpenSim   : 121 MB
+Heap allocation rate (last/avg): 0.284/0.173MB/s
+Process memory:      Physical 168 MB 	 Paged 226 MB 	 Virtual 4873 MB
+Peak process memory: Physical 254 MB 	 Paged 231 MB 	 Virtual 4893 MB
+
+Total process Threads 43
+
+9 threads are being tracked:
+    ID                                  NAME   LAST UPDATE (MS)   LIFETIME (MS)     PRIORITY                            STATE
+    10              PollServiceWatcherThread                 94         3600047       Normal        Background, WaitSleepJoin
+    11                  Yengine sleep (meta)                109         3599359       Normal        Background, WaitSleepJoin
+    12                       YScript0 (meta)                 78         3599359       Normal        Background, WaitSleepJoin
+    13                       YScript1 (meta)                 94         3599344       Normal        Background, WaitSleepJoin
+    14                      MapBlocks (meta)               1750         3599156       Normal        Background, WaitSleepJoin
+    16               Incoming Packets (meta)                 47         3599015       Normal        Background, WaitSleepJoin
+    17               Outgoing Packets (meta)                  0         3599015       Normal        Background, WaitSleepJoin
+    21              AsyncLSLCmdHandlerThread                 94         3597750       Normal        Background, WaitSleepJoin
+    25                      Heartbeat-(meta)                 78         3594531       Normal                    WaitSleepJoin
+
+Framework main threadpool 
+workers:    1 (1000 / 16)
+Completion: 0 (1000 / 16)
+
+Threadpool (excluding script engine pools)
+Thread pool used           : SmartThreadPool
+Max threads                : 300
+Min threads                : 2
+Allocated threads          : 8
+In use threads             : 3
+Work items waiting         : 0
+
+Total process threads: 43
+
+
+2024-05-15 13:09:22,806 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 13:09:22,806 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 13:09:22,807 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 13:09:22,807 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 13:09:22,808 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 13:09:22,808 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 13:09:22,810 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 13:09:22,810 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 13:09:22,811 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 13:09:22,812 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 13:12:12,028 WARN  [Materials]: request for unknown material ID: 405d20ce-0bfe-e344-8661-624961658a1a
+2024-05-15 13:14:25,653 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 13:14:25,653 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 13:14:25,654 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 13:14:25,654 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 13:14:25,656 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 13:14:25,656 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 13:14:25,657 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 13:14:25,657 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 13:14:25,658 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 13:14:25,658 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 13:23:03,338 WARN  [YEngine]: compile error on XWVhEnLHxrFv_oYFgKcooUaVnCnYQZNQUbDFVctY6H3 (asset://dec3d5e7-4909-4e94-a5ae-2053119b818c)
+2024-05-15 13:23:03,341 INFO  [YEngine]: - <152.074, 209.098, 25.6882> Youtube XL Player v1.0:private youtube video player v7
+2024-05-15 13:23:03,342 INFO  [YEngine]: - (13,33) Error: undefined constant/function/variable VideoBaseUrl
+2024-05-15 14:04:00,256 DEBUG DIAGNOSTICS
+
+Time now is 2024-05-15 14:04:00
+Server has been running since Wednesday, 2024-05-15 12:03:59
+That is an elapsed time of 02:00:00.5855854
+
+MEMORY STATISTICS
+Heap allocated to OpenSim   : 108 MB
+Heap allocation rate (last/avg): -1.927/-0.009MB/s
+Process memory:      Physical 159 MB 	 Paged 228 MB 	 Virtual 4870 MB
+Peak process memory: Physical 254 MB 	 Paged 231 MB 	 Virtual 4893 MB
+
+Total process Threads 40
+
+9 threads are being tracked:
+    ID                                  NAME   LAST UPDATE (MS)   LIFETIME (MS)     PRIORITY                            STATE
+    10              PollServiceWatcherThread                 32         7200032       Normal        Background, WaitSleepJoin
+    11                  Yengine sleep (meta)                719         7199344       Normal        Background, WaitSleepJoin
+    12                       YScript0 (meta)                 79         7199344       Normal        Background, WaitSleepJoin
+    13                       YScript1 (meta)                172         7199329       Normal        Background, WaitSleepJoin
+    14                      MapBlocks (meta)               4329         7199141       Normal        Background, WaitSleepJoin
+    16               Incoming Packets (meta)                797         7199000       Normal        Background, WaitSleepJoin
+    17               Outgoing Packets (meta)                 16         7199000       Normal        Background, WaitSleepJoin
+    21              AsyncLSLCmdHandlerThread                 47         7197735       Normal        Background, WaitSleepJoin
+    25                      Heartbeat-(meta)                 79         7194516       Normal                    WaitSleepJoin
+
+Framework main threadpool 
+workers:    1 (1000 / 16)
+Completion: 0 (1000 / 16)
+
+Threadpool (excluding script engine pools)
+Thread pool used           : SmartThreadPool
+Max threads                : 300
+Min threads                : 2
+Allocated threads          : 5
+In use threads             : 3
+Work items waiting         : 0
+
+Total process threads: 40
+
+
+2024-05-15 14:08:15,580 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 14:08:15,580 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 14:08:15,581 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 14:08:15,582 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 14:08:15,582 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 14:08:15,583 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 14:08:15,583 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 14:08:15,584 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 14:08:15,584 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 14:08:15,585 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 14:14:54,777 WARN  [YEngine]: reduction errors on FjViTbvqquJRm6jghGrIE35t3bAhlfp7ea9lmSdksF1 (asset://be63af9e-9a5e-46c9-a66a-1fe0ad8d4545)
+2024-05-15 14:14:54,778 INFO  [YEngine]: - <152.517, 208.623, 25.6882> Youtube Player v1.0:private youtube video player v7
+2024-05-15 14:14:54,778 INFO  [YEngine]: - (3,15) Error: invalid operator
+2024-05-15 14:15:27,806 WARN  [YEngine]: reduction errors on FjViTbvqquJRm6jghGrIE35t3bAhlfp7ea9lmSdksF1 (asset://7ba071cf-8b12-486a-b990-c79f3c3d23b4)
+2024-05-15 14:15:27,806 INFO  [YEngine]: - <152.517, 208.623, 25.6882> Youtube Player v1.0:private youtube video player v7
+2024-05-15 14:15:27,807 INFO  [YEngine]: - (3,15) Error: invalid operator
+2024-05-15 14:19:21,333 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 14:19:21,334 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 14:19:21,335 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 14:19:21,335 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 14:19:21,336 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 14:19:21,336 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 14:19:21,337 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 14:19:21,338 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 14:19:21,338 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 14:19:21,339 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 14:19:23,631 WARN  [Materials]: request for unknown material ID: 405d20ce-0bfe-e344-8661-624961658a1a
+2024-05-15 14:24:51,089 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 14:24:51,089 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 14:24:51,091 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 14:24:51,092 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 14:24:51,092 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 14:24:51,093 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 14:24:51,094 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 14:24:51,094 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 14:24:51,095 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 14:24:51,095 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 14:25:25,163 WARN  [Materials]: request for unknown material ID: 405d20ce-0bfe-e344-8661-624961658a1a
+2024-05-15 14:25:53,324 WARN  [Materials]: request for unknown material ID: 63cfb53f-f24c-dd8b-c13f-159ef857b6cd
+2024-05-15 14:30:32,322 WARN  [Materials]: request for unknown material ID: 405d20ce-0bfe-e344-8661-624961658a1a
+2024-05-15 14:31:16,964 WARN  [Materials]: request for unknown material ID: 692a191d-8d6d-dcca-1a9b-68d707351d85
+2024-05-15 14:31:16,965 WARN  [Materials]: request for unknown material ID: 40b80d2e-40ac-b65b-adc6-0f2604e78dad
+2024-05-15 14:31:16,966 WARN  [Materials]: request for unknown material ID: 06597c41-352f-ae07-6279-417472763ddc
+2024-05-15 14:31:16,966 WARN  [Materials]: request for unknown material ID: 0a456877-53cf-22c3-e3ae-3fb9cab79d4b
+2024-05-15 14:31:16,967 WARN  [Materials]: request for unknown material ID: 97cc668e-8bc6-8731-438d-1c08096bb2e9
+2024-05-15 14:31:16,967 WARN  [Materials]: request for unknown material ID: 6e28acb4-195e-045f-7f38-2506279799ed
+2024-05-15 14:31:16,968 WARN  [Materials]: request for unknown material ID: a9e026c4-4a60-1746-8371-346328151637
+2024-05-15 14:31:16,968 WARN  [Materials]: request for unknown material ID: 9749cbd1-8ed8-c1fd-00d7-292149a5b219
+2024-05-15 14:31:16,970 WARN  [Materials]: request for unknown material ID: 6e4074e1-a8bf-7c0d-da69-a9d06cacdb84
+2024-05-15 14:31:16,971 WARN  [Materials]: request for unknown material ID: 4dd9e8e6-787c-5d32-4210-09e7254817f7
+2024-05-15 14:32:11,793 WARN  [Materials]: request for unknown material ID: 63cfb53f-f24c-dd8b-c13f-159ef857b6cd
+2024-05-15 14:36:05,006 WARN  [Materials]: request for unknown material ID: 405d20ce-0bfe-e344-8661-624961658a1a
+2024-05-15 14:36:33,018 INFO  [CLIENT]: Got a logout request for marcelo firmino in meta
+2024-05-15 14:36:33,019 DEBUG [CLIENT]: Close has been called for marcelo firmino attached to scene meta
+2024-05-15 14:36:33,020 DEBUG [GRID USER SERVICE]: User 8a137126-9202-4244-b3e9-a1ec7d39f59b is offline
+2024-05-15 14:36:33,025 DEBUG [PRESENCE SERVICE]: LogoutAgent: session aff3a04a-f1c6-4b09-bee5-5d180644c626, user 8a137126-9202-4244-b3e9-a1ec7d39f59b, region cd5fe6c9-614a-4645-bcb3-e17ddff4486b
+2024-05-15 14:36:33,025 DEBUG [JobEngine] Stopping AsyncInUDP-8a137126-9202-4244-b3e9-a1ec7d39f59b
+2024-05-15 14:36:33,026 DEBUG [SCENE]: Removing root agent marcelo firmino 8a137126-9202-4244-b3e9-a1ec7d39f59b from meta
+2024-05-15 14:36:33,027 DEBUG [Scene] The avatar has left the building
+2024-05-15 14:36:33,027 DEBUG [CAPS]: Remove caps for agent 8a137126-9202-4244-b3e9-a1ec7d39f59b in region meta
