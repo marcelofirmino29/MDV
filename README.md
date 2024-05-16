@@ -145,47 +145,28 @@ Obrigado por experimentar o OpenSim, esperamos que seja uma experiência agradá
 
 -----------------------------------------------------
 
-# Singularity Viewer
+# Firestorm Viewer
 
-## Para usar o Singularity Viewer em plataformas como OpenSim, siga estas etapas:
+## Para usar o Firestorm Viewer em plataformas como OpenSim, siga estas etapas:
 
 Download e Instalação:
 
-Acesse o site oficial do Singularity Viewer e baixe a versão adequada para o seu sistema operacional.
+Acesse o site oficial do Firestorm Viewer e baixe a versão adequada para o seu sistema operacional.
 
 Execute o arquivo baixado e siga as instruções de instalação.
 
-Configurações Iniciais:
+## Abra o Firestorm Viewer.
 
-### Abra o Singularity Viewer.
-*Vá para “Editar” > “Preferências”.
-*Na seção “Gráficos”, escolha a opção “Médio” para melhor desempenho.
-*Na seção “Chat”, selecione a opção “Grande” para melhor legibilidade.
-*Em “Grids”, crie um novo grid com o endereço do servidor onde a plataforma virtual está hospedada, em geral localhost:9000. 
-*Dê um nome e clique em “OK”.
+*Vá para “Avatar” > “Preferências” ou pressione Ctrl+P.
+*Na seção “Gráficos”, escolha a opção “Médio” para um bom equilíbrio entre desempenho e qualidade visual.
+*Na seção “Chat”, ajuste o tamanho da fonte para “Grande” se preferir uma melhor legibilidade.
+*Em “Redes” ou “Grids”, adicione um novo grid com o endereço do servidor da plataforma virtual, que pode ser localhost:9000 ou outro endereço fornecido pelo administrador do grid.
+*Dê um nome ao grid e clique em “Aplicar” e depois em “OK”.
+#Login no Firestorm Viewer:
+*Na tela de login, insira suas credenciais (nome de usuário e senha).
+*Selecione o grid que você adicionou nas configurações iniciais.
+*Clique em “Entrar” para acessar o mundo virtual.
 
-### Login:
-*Insira suas credenciais (nome de usuário e senha) para acessar o mundo virtual.
-
-### Lembre-se de verificar o site oficial do Singularity Viewer para obter mais informações e suporte. 
-### Boa exploração virtual! 🌟
-
-
--------------------------------------------------
-# Firestorm Viewer (Alternativa)
-
-## O Firestorm Viewer é um visualizador de código aberto para mundos virtuais, como o Second Life. Ele permite que você explore ambientes virtuais, interaja com outros usuários e crie conteúdo. Aqui estão algumas dicas para usar o Firestorm Viewer:
-
-### Instalação:
-No Linux, você pode instalar o Firestorm Viewer via Flatpak. Basta digitar o seguinte comando em um terminal:
-flatpak run org.firestormviewer.FirestormViewer
-
-Você também pode procurar o aplicativo no menu de aplicativos da sua distribuição Linux.
-
-### Configurações:
-
-Ao iniciar o Firestorm, você pode personalizar várias configurações, como gráficos, áudio e controles.
-Explore as opções de preferências para ajustar o visualizador de acordo com suas preferências.
 
 Exploração:
 Use as teclas de seta ou o mouse para mover sua câmera e explorar o ambiente.
