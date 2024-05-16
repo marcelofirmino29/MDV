@@ -157,15 +157,15 @@ Execute o arquivo baixado e siga as instruções de instalação.
 
 ## Abra o Firestorm Viewer.
 
-*Vá para “Avatar” > “Preferências” ou pressione Ctrl+P.
-*Na seção “Gráficos”, escolha a opção “Médio” para um bom equilíbrio entre desempenho e qualidade visual.
-*Na seção “Chat”, ajuste o tamanho da fonte para “Grande” se preferir uma melhor legibilidade.
-*Em “Redes” ou “Grids”, adicione um novo grid com o endereço do servidor da plataforma virtual, que pode ser localhost:9000 ou outro endereço fornecido pelo administrador do grid.
-*Dê um nome ao grid e clique em “Aplicar” e depois em “OK”.
-#Login no Firestorm Viewer:
-*Na tela de login, insira suas credenciais (nome de usuário e senha).
-*Selecione o grid que você adicionou nas configurações iniciais.
-*Clique em “Entrar” para acessar o mundo virtual.
+* Vá para “Avatar” > “Preferências” ou pressione Ctrl+P.
+* Na seção “Gráficos”, escolha a opção “Médio” para um bom equilíbrio entre desempenho e qualidade visual.
+* Na seção “Chat”, ajuste o tamanho da fonte para “Grande” se preferir uma melhor legibilidade.
+* Em “Redes” ou “Grids”, adicione um novo grid com o endereço do servidor da plataforma virtual, que pode ser localhost:9000 ou outro endereço fornecido pelo administrador do grid.
+* Dê um nome ao grid e clique em “Aplicar” e depois em “OK”.
+# Login no Firestorm Viewer:
+* Na tela de login, insira suas credenciais (nome de usuário e senha).
+* Selecione o grid que você adicionou nas configurações iniciais.
+* Clique em “Entrar” para acessar o mundo virtual.
 
 
 Exploração:
